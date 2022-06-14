@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: cae3f9537776dea41855a724b56dd2c9
 ModelImporter:
-  serializedVersion: 19301
+  serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: 8092736937394372646
@@ -45,6 +45,6057 @@ ModelImporter:
   - first:
       74: 8349542763059015795
     second: Walk
+  - first:
+      74: -4203866118183016946
+    second: Swing //// Armature
+  - first:
+      74: -4532615994868727585
+    second: Shot //// Armature
+  - first:
+      74: 2743652173147030940
+    second: Die //// Armature
+  - first:
+      74: -5592999361207039045
+    second: Dodge //// Armature
+  - first:
+      74: -370143317951901768
+    second: Idle //// Armature
+  - first:
+      74: 6902878002976891570
+    second: Jump //// Armature
+  - first:
+      74: 1529157940207964634
+    second: Land //// Armature
+  - first:
+      74: 8002622006179107582
+    second: Reload //// Armature
+  - first:
+      74: -7360074500117916100
+    second: Run //// Armature
+  - first:
+      74: -6129942647280205239
+    second: Swap //// Armature
+  - first:
+      74: 8779363304857538281
+    second: Throw //// Armature
+  - first:
+      74: 4461847828861067907
+    second: Walk //// Armature
+  - first:
+      74: 8543336353177466668
+    second: Swing //// Armature
+  - first:
+      74: 8229394129712173534
+    second: Shot //// Armature
+  - first:
+      74: -5448899563628198194
+    second: Die //// Armature
+  - first:
+      74: -8986192551086172899
+    second: Dodge //// Armature
+  - first:
+      74: 6878238091728392987
+    second: Idle //// Armature
+  - first:
+      74: -3013991465411277773
+    second: Jump //// Armature
+  - first:
+      74: -6934101665856401081
+    second: Land //// Armature
+  - first:
+      74: -3901633713730504126
+    second: Reload //// Armature
+  - first:
+      74: -492437276383776389
+    second: Run //// Armature
+  - first:
+      74: 88388016566056232
+    second: Swap //// Armature
+  - first:
+      74: -7321436306774575552
+    second: Throw //// Armature
+  - first:
+      74: -1377425390178067347
+    second: Walk //// Armature
+  - first:
+      74: 542246890188025134
+    second: Swing //// Armature
+  - first:
+      74: 5702413778639381216
+    second: Shot //// Armature
+  - first:
+      74: -6803583346624295550
+    second: Die //// Armature
+  - first:
+      74: 6657375753415077654
+    second: Dodge //// Armature
+  - first:
+      74: 3205075315692164491
+    second: Idle //// Armature
+  - first:
+      74: 4369131091395623216
+    second: Jump //// Armature
+  - first:
+      74: 358887960333017225
+    second: Land //// Armature
+  - first:
+      74: 598840086078400647
+    second: Reload //// Armature
+  - first:
+      74: 1307940203195464204
+    second: Run //// Armature
+  - first:
+      74: 902048655706144907
+    second: Swap //// Armature
+  - first:
+      74: 8679559444918314037
+    second: Throw //// Armature
+  - first:
+      74: 2821269800663554229
+    second: Walk //// Armature
+  - first:
+      74: -6031621216381403831
+    second: Swing //// Armature
+  - first:
+      74: 2567281008755498425
+    second: Shot //// Armature
+  - first:
+      74: 1155604550996853951
+    second: Die //// Armature
+  - first:
+      74: -7771702049433474640
+    second: Dodge //// Armature
+  - first:
+      74: -551124974224232987
+    second: Idle //// Armature
+  - first:
+      74: 6724013340974435130
+    second: Jump //// Armature
+  - first:
+      74: 453877015904268958
+    second: Land //// Armature
+  - first:
+      74: 8368764418340324340
+    second: Reload //// Armature
+  - first:
+      74: 426563175775145519
+    second: Run //// Armature
+  - first:
+      74: 2349028690702718377
+    second: Swap //// Armature
+  - first:
+      74: 3848966077480980313
+    second: Throw //// Armature
+  - first:
+      74: -7717290957562656231
+    second: Walk //// Armature
+  - first:
+      74: -1678632118904219573
+    second: Swing //// Armature
+  - first:
+      74: -1957674009071411824
+    second: Shot //// Armature
+  - first:
+      74: 7508931989109537531
+    second: Die //// Armature
+  - first:
+      74: 5914814184498083762
+    second: Dodge //// Armature
+  - first:
+      74: 5329167722963818840
+    second: Idle //// Armature
+  - first:
+      74: 660702341829021935
+    second: Jump //// Armature
+  - first:
+      74: 7098705481500438816
+    second: Land //// Armature
+  - first:
+      74: 8952048111289975993
+    second: Reload //// Armature
+  - first:
+      74: -355300968833302894
+    second: Run //// Armature
+  - first:
+      74: -488725926975504312
+    second: Swap //// Armature
+  - first:
+      74: 7583032634378084073
+    second: Throw //// Armature
+  - first:
+      74: -5142999349521502509
+    second: Walk //// Armature
+  - first:
+      74: -3485117779293299357
+    second: Swing //// Armature
+  - first:
+      74: 1102670021069838102
+    second: Shot //// Armature
+  - first:
+      74: 107835702199018746
+    second: Die //// Armature
+  - first:
+      74: -3603460497051016718
+    second: Dodge //// Armature
+  - first:
+      74: 8033791008263086609
+    second: Idle //// Armature
+  - first:
+      74: -782288750847219392
+    second: Jump //// Armature
+  - first:
+      74: -4265248530662326332
+    second: Land //// Armature
+  - first:
+      74: -1930692419502133089
+    second: Reload //// Armature
+  - first:
+      74: -20483769046319436
+    second: Run //// Armature
+  - first:
+      74: 2952625371722282328
+    second: Swap //// Armature
+  - first:
+      74: -788002094957549486
+    second: Throw //// Armature
+  - first:
+      74: 85105653605921430
+    second: Walk //// Armature
+  - first:
+      74: -4224960647120618298
+    second: Swing //// Armature
+  - first:
+      74: -2344910784169545726
+    second: Shot //// Armature
+  - first:
+      74: -3690210023212894098
+    second: Die //// Armature
+  - first:
+      74: 9055036977517539788
+    second: Dodge //// Armature
+  - first:
+      74: 9110717593469603351
+    second: Idle //// Armature
+  - first:
+      74: 2590153557277748497
+    second: Jump //// Armature
+  - first:
+      74: 1609122044624489917
+    second: Land //// Armature
+  - first:
+      74: 5594707890567113462
+    second: Reload //// Armature
+  - first:
+      74: 5848497530471549773
+    second: Run //// Armature
+  - first:
+      74: -6164179339778348782
+    second: Swap //// Armature
+  - first:
+      74: -1840882976976723446
+    second: Throw //// Armature
+  - first:
+      74: 7169590703277056383
+    second: Walk //// Armature
+  - first:
+      74: -8248264999555298446
+    second: Swing //// Armature
+  - first:
+      74: 7367318617706436470
+    second: Shot //// Armature
+  - first:
+      74: 6163397016928407611
+    second: Die //// Armature
+  - first:
+      74: -8484713312266167835
+    second: Dodge //// Armature
+  - first:
+      74: -7916467827604034491
+    second: Idle //// Armature
+  - first:
+      74: 8888474076753186768
+    second: Jump //// Armature
+  - first:
+      74: 2169446486981956465
+    second: Land //// Armature
+  - first:
+      74: -5756692740178625668
+    second: Reload //// Armature
+  - first:
+      74: -1264341513858852786
+    second: Run //// Armature
+  - first:
+      74: -3044661635149630046
+    second: Swap //// Armature
+  - first:
+      74: -1437880895065341205
+    second: Throw //// Armature
+  - first:
+      74: -7550898451341156466
+    second: Walk //// Armature
+  - first:
+      74: 2003848168032871158
+    second: Swing //// Armature
+  - first:
+      74: 3517034388843356315
+    second: Shot //// Armature
+  - first:
+      74: -7671887002315959015
+    second: Die //// Armature
+  - first:
+      74: -5905588234267683958
+    second: Dodge //// Armature
+  - first:
+      74: -6935399596760691630
+    second: Idle //// Armature
+  - first:
+      74: 6351785666151643724
+    second: Jump //// Armature
+  - first:
+      74: 2504482267234223081
+    second: Land //// Armature
+  - first:
+      74: 7090094576840228455
+    second: Reload //// Armature
+  - first:
+      74: -8987065758695413590
+    second: Run //// Armature
+  - first:
+      74: 4077292035372331229
+    second: Swap //// Armature
+  - first:
+      74: -1908817511142624303
+    second: Throw //// Armature
+  - first:
+      74: 7559746735097428715
+    second: Walk //// Armature
+  - first:
+      74: -2098519684979250315
+    second: Swing //// Armature
+  - first:
+      74: 943027011671614803
+    second: Shot //// Armature
+  - first:
+      74: -8156109121611727121
+    second: Die //// Armature
+  - first:
+      74: -25579278667750241
+    second: Dodge //// Armature
+  - first:
+      74: -804577950368097011
+    second: Idle //// Armature
+  - first:
+      74: -2057951365498360765
+    second: Jump //// Armature
+  - first:
+      74: 7005806860345088626
+    second: Land //// Armature
+  - first:
+      74: -9055009822960683249
+    second: Reload //// Armature
+  - first:
+      74: 1163525812114236125
+    second: Run //// Armature
+  - first:
+      74: 7721472020097790253
+    second: Swap //// Armature
+  - first:
+      74: -3563065582391951075
+    second: Throw //// Armature
+  - first:
+      74: 5193209781053147889
+    second: Walk //// Armature
+  - first:
+      74: 5690930047130699431
+    second: Swing //// Armature
+  - first:
+      74: 1909537862490623997
+    second: Shot //// Armature
+  - first:
+      74: -6378307093259019400
+    second: Die //// Armature
+  - first:
+      74: 1541317118198123915
+    second: Dodge //// Armature
+  - first:
+      74: 9076964373882206046
+    second: Idle //// Armature
+  - first:
+      74: 824453810194701199
+    second: Jump //// Armature
+  - first:
+      74: 571658090582233119
+    second: Land //// Armature
+  - first:
+      74: -1390497311122576515
+    second: Reload //// Armature
+  - first:
+      74: 2772769526274931557
+    second: Run //// Armature
+  - first:
+      74: 5296990406674618033
+    second: Swap //// Armature
+  - first:
+      74: 298335558700853248
+    second: Throw //// Armature
+  - first:
+      74: -1559918421862801364
+    second: Walk //// Armature
+  - first:
+      74: -6124475685884387395
+    second: Swing //// Armature
+  - first:
+      74: 8425946290596179772
+    second: Shot //// Armature
+  - first:
+      74: -6707057699713021719
+    second: Die //// Armature
+  - first:
+      74: 7445849093790045884
+    second: Dodge //// Armature
+  - first:
+      74: -5545109260487219971
+    second: Idle //// Armature
+  - first:
+      74: -8498195007219817645
+    second: Jump //// Armature
+  - first:
+      74: -9061251350547746111
+    second: Land //// Armature
+  - first:
+      74: -7111960784319432133
+    second: Reload //// Armature
+  - first:
+      74: 6434297160942585766
+    second: Run //// Armature
+  - first:
+      74: -1392393065321245473
+    second: Swap //// Armature
+  - first:
+      74: -8497807222057175065
+    second: Throw //// Armature
+  - first:
+      74: 6361941703198334158
+    second: Walk //// Armature
+  - first:
+      74: -3135154098098090121
+    second: Swing //// Armature
+  - first:
+      74: 6220183573912740651
+    second: Shot //// Armature
+  - first:
+      74: -1030732128893087822
+    second: Die //// Armature
+  - first:
+      74: 1021639489468754930
+    second: Dodge //// Armature
+  - first:
+      74: 3638392746333183109
+    second: Idle //// Armature
+  - first:
+      74: -192491822565313378
+    second: Jump //// Armature
+  - first:
+      74: -3525007924124956898
+    second: Land //// Armature
+  - first:
+      74: 3011218115598902212
+    second: Reload //// Armature
+  - first:
+      74: 734840291905659241
+    second: Run //// Armature
+  - first:
+      74: 8432502536640549280
+    second: Swap //// Armature
+  - first:
+      74: -7510856270320719601
+    second: Throw //// Armature
+  - first:
+      74: -4569395336166882403
+    second: Walk //// Armature
+  - first:
+      74: -8683828256156867008
+    second: Swing //// Armature
+  - first:
+      74: 9018033471195503491
+    second: Shot //// Armature
+  - first:
+      74: 5823009889923623871
+    second: Die //// Armature
+  - first:
+      74: -6830169930026801273
+    second: Dodge //// Armature
+  - first:
+      74: 8758655253836555176
+    second: Idle //// Armature
+  - first:
+      74: -5088084042600744148
+    second: Jump //// Armature
+  - first:
+      74: -3494117623348096989
+    second: Land //// Armature
+  - first:
+      74: 7349483935015272395
+    second: Reload //// Armature
+  - first:
+      74: -3544889750132427389
+    second: Run //// Armature
+  - first:
+      74: -8657436758478257981
+    second: Swap //// Armature
+  - first:
+      74: 5580603992956307553
+    second: Throw //// Armature
+  - first:
+      74: 1625814926245417065
+    second: Walk //// Armature
+  - first:
+      74: -2255525772528522090
+    second: Swing //// Bone_Body
+  - first:
+      74: -5164122841649837840
+    second: Shot //// Bone_Body
+  - first:
+      74: 6661178540171564222
+    second: Die //// Bone_Body
+  - first:
+      74: -4920849738966583460
+    second: Dodge //// Bone_Body
+  - first:
+      74: 1808222459424088932
+    second: Idle //// Bone_Body
+  - first:
+      74: -7077838307761116428
+    second: Jump //// Bone_Body
+  - first:
+      74: -6944703909837869533
+    second: Land //// Bone_Body
+  - first:
+      74: -7469259488852574117
+    second: Reload //// Bone_Body
+  - first:
+      74: 4831988488168199883
+    second: Run //// Bone_Body
+  - first:
+      74: -907195101322779496
+    second: Swap //// Bone_Body
+  - first:
+      74: -5323961956107437508
+    second: Throw //// Bone_Body
+  - first:
+      74: 3723523420000371214
+    second: Walk //// Bone_Body
+  - first:
+      74: 8864532256345636411
+    second: Swing //// Bone_Neck
+  - first:
+      74: 991819582914173823
+    second: Shot //// Bone_Neck
+  - first:
+      74: 7508350921571107008
+    second: Die //// Bone_Neck
+  - first:
+      74: -8761391205907048524
+    second: Dodge //// Bone_Neck
+  - first:
+      74: -466871610175987171
+    second: Idle //// Bone_Neck
+  - first:
+      74: -651903980835257168
+    second: Jump //// Bone_Neck
+  - first:
+      74: -6764938284798992004
+    second: Land //// Bone_Neck
+  - first:
+      74: -4056845395629692975
+    second: Reload //// Bone_Neck
+  - first:
+      74: 8658788979072594736
+    second: Run //// Bone_Neck
+  - first:
+      74: -874135279940256375
+    second: Swap //// Bone_Neck
+  - first:
+      74: -5268114909720900999
+    second: Throw //// Bone_Neck
+  - first:
+      74: -6393401120348876011
+    second: Walk //// Bone_Neck
+  - first:
+      74: 924871873067025679
+    second: Swing //// Bone_Head
+  - first:
+      74: 8988972642982082738
+    second: Shot //// Bone_Head
+  - first:
+      74: -2003811723913492013
+    second: Die //// Bone_Head
+  - first:
+      74: -5441684166769709859
+    second: Dodge //// Bone_Head
+  - first:
+      74: -8621358332108680125
+    second: Idle //// Bone_Head
+  - first:
+      74: -5533130927186976561
+    second: Jump //// Bone_Head
+  - first:
+      74: -7541951297516442508
+    second: Land //// Bone_Head
+  - first:
+      74: -7253434595895111581
+    second: Reload //// Bone_Head
+  - first:
+      74: -4188251530289883547
+    second: Run //// Bone_Head
+  - first:
+      74: 5185148401386499186
+    second: Swap //// Bone_Head
+  - first:
+      74: -3585767785973316298
+    second: Throw //// Bone_Head
+  - first:
+      74: 3735573263150311510
+    second: Walk //// Bone_Head
+  - first:
+      74: 2691866600070929597
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: 2486623949468906031
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: 1733126022489827903
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -6698258896229953668
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: -5660490601918762984
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: -6263552110649836191
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: 6871102980916350937
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: 7277352894437197478
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: -3981866889401361934
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: -80123164791165741
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: -1182662073145903425
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: -3998385859159026822
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: -2962055955336898363
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: -5548851018562645447
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: -8989501133199923225
+    second: Die //// Bone_Arm_L
+  - first:
+      74: 8842535593830749115
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: 9208010537100447947
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: -2616607580772287301
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: 7186406015353341244
+    second: Land //// Bone_Arm_L
+  - first:
+      74: 839759737831409522
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: 6015132806778251352
+    second: Run //// Bone_Arm_L
+  - first:
+      74: 6800277433958965256
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: -2662249018075328929
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: 1555321500832772067
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: -4269275393232958632
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: 1756174390915850602
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: -4070620249867989959
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: -2443829786585595574
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: 4576726868949359994
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: -2696744591541048125
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: -5695663826425092962
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: 5016652760159796795
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: -4128023148495564946
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: -4816127345792562027
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: -8539986449289271441
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: -4022257481826164994
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: -31169489835636335
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: 5319897471708242782
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -3830776531776865463
+    second: Die //// Bone_Arm_R
+  - first:
+      74: 175930785894537181
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: 8114819561788807771
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: 7040637697302036963
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: 1751556633995329852
+    second: Land //// Bone_Arm_R
+  - first:
+      74: -7952159373514356208
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: -8201969378848458534
+    second: Run //// Bone_Arm_R
+  - first:
+      74: -5153070000914712540
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: -9165879538605321050
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: 6411013230677768399
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: -4578754475277563033
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: 4548713961328787905
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: 3622367769683310212
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -2248623860198795376
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: -4169752937675204201
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: 5800203910656868836
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: 2241184366580286798
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -6387622517350053059
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: -1566457585621287418
+    second: Run //// Bone_Leg_L
+  - first:
+      74: 471046804943438754
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: 1087764440785147999
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: 8995978878765569294
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: 3269415605566625150
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: 8166692915578734765
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: -4507216034923902809
+    second: Die //// Bone_Foot_L
+  - first:
+      74: 5562022896147080605
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: -1287856989810664148
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: 5361316220321910077
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: -7437339031184285125
+    second: Land //// Bone_Foot_L
+  - first:
+      74: -7448038692849130914
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: -5801448306989580654
+    second: Run //// Bone_Foot_L
+  - first:
+      74: -6214029954465811134
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: -3316922441620885653
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: -3103208396594962638
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: 6501244581682447339
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: -5821383602199325574
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: -6507309594955254842
+    second: Die //// Bone_Leg_R
+  - first:
+      74: -8070314817124980910
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: -2367743656789204984
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: 2058891264833818106
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: 6727050144130593185
+    second: Land //// Bone_Leg_R
+  - first:
+      74: -1439391333198435295
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: 181229324710832565
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -7667994681692102821
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: 739869020700028858
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: 639562361252505848
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: -3349250957827387388
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: 7210325272099980469
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: -7016783638597991418
+    second: Die //// Bone_Foot_R
+  - first:
+      74: -5230312910255830323
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: 5930651905726078246
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: 5120131136538954641
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: -6708025348807571476
+    second: Land //// Bone_Foot_R
+  - first:
+      74: -2306318561696224765
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: 8208553414454108930
+    second: Run //// Bone_Foot_R
+  - first:
+      74: 1982568723456582500
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: -4896711082867473022
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: -6760587990341036373
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: -9190865668553425802
+    second: Swing //// Bone_Body
+  - first:
+      74: 4842549629799114812
+    second: Shot //// Bone_Body
+  - first:
+      74: 1125040927162556128
+    second: Die //// Bone_Body
+  - first:
+      74: -215387119603168644
+    second: Dodge //// Bone_Body
+  - first:
+      74: -888346425774085553
+    second: Idle //// Bone_Body
+  - first:
+      74: -1487176399341394458
+    second: Jump //// Bone_Body
+  - first:
+      74: -7175229315455198921
+    second: Land //// Bone_Body
+  - first:
+      74: -7647923545681021646
+    second: Reload //// Bone_Body
+  - first:
+      74: -6860542023746002621
+    second: Run //// Bone_Body
+  - first:
+      74: 196193922933078336
+    second: Swap //// Bone_Body
+  - first:
+      74: -5970905328802914066
+    second: Throw //// Bone_Body
+  - first:
+      74: -1831917310664951274
+    second: Walk //// Bone_Body
+  - first:
+      74: 9153277274037407002
+    second: Swing //// Bone_Neck
+  - first:
+      74: -530081943820486805
+    second: Shot //// Bone_Neck
+  - first:
+      74: 4519124212715373939
+    second: Die //// Bone_Neck
+  - first:
+      74: 1711642964718366160
+    second: Dodge //// Bone_Neck
+  - first:
+      74: -2435551677082074715
+    second: Idle //// Bone_Neck
+  - first:
+      74: 8593636187826647352
+    second: Jump //// Bone_Neck
+  - first:
+      74: -5388716381852771181
+    second: Land //// Bone_Neck
+  - first:
+      74: 9164113241856513751
+    second: Reload //// Bone_Neck
+  - first:
+      74: -6081322741839360484
+    second: Run //// Bone_Neck
+  - first:
+      74: -3355576718288301966
+    second: Swap //// Bone_Neck
+  - first:
+      74: -1073609971881958883
+    second: Throw //// Bone_Neck
+  - first:
+      74: -1158364227461255935
+    second: Walk //// Bone_Neck
+  - first:
+      74: -1023875006644904684
+    second: Swing //// Bone_Head
+  - first:
+      74: 7459443136708952190
+    second: Shot //// Bone_Head
+  - first:
+      74: -4350166195348274406
+    second: Die //// Bone_Head
+  - first:
+      74: 2089306820337785570
+    second: Dodge //// Bone_Head
+  - first:
+      74: 8600198286418623524
+    second: Idle //// Bone_Head
+  - first:
+      74: -375910135977108445
+    second: Jump //// Bone_Head
+  - first:
+      74: 3588554310239052876
+    second: Land //// Bone_Head
+  - first:
+      74: 7033252798508627367
+    second: Reload //// Bone_Head
+  - first:
+      74: 4922650469338573985
+    second: Run //// Bone_Head
+  - first:
+      74: 4528537514372328641
+    second: Swap //// Bone_Head
+  - first:
+      74: -3153190622668121713
+    second: Throw //// Bone_Head
+  - first:
+      74: -2735939255897783352
+    second: Walk //// Bone_Head
+  - first:
+      74: -5167592825005311033
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: 9198278382659769094
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: 3014400199661218561
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -1110082366155029577
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: 318693844442576816
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: -6766916105479083688
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: -44940353553603882
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: 3875617314096713716
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: -1292087530729308337
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: -5657267886094495097
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: 2788049912325004666
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: -8388742600318510325
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: -3579855714788890624
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: -1331399289319417071
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: 4917858186474028201
+    second: Die //// Bone_Arm_L
+  - first:
+      74: -8988080837192297454
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: -3736148390377521001
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: -7169118081695291124
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: 1992618167064419748
+    second: Land //// Bone_Arm_L
+  - first:
+      74: -2602256019536490190
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: 2746029930379720958
+    second: Run //// Bone_Arm_L
+  - first:
+      74: -1568508544388455007
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: -2533668862211637265
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: -2796170741454413269
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: -7749637584602910829
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: -2746936132033895856
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: -4657472499642331335
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: -2225183603953820281
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: 3694728192288733130
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: 2972231274556348517
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: 735301731291655212
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: 2249176524523034492
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: 3000962538266895556
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: -2837216236158947450
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: -4574492121093936087
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: 8515142187745280480
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: 3671201639412875171
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: -2755047219131374443
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -3682115675144168252
+    second: Die //// Bone_Arm_R
+  - first:
+      74: 4331551390607533445
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: 8899121778122955061
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: 6470090092535398611
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: -2910774885246274906
+    second: Land //// Bone_Arm_R
+  - first:
+      74: 5264872046242344040
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: -6640277661186600541
+    second: Run //// Bone_Arm_R
+  - first:
+      74: 9183707636388023515
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: -4298395547145579854
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: -8345363279830736911
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: 7366188284198251934
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: 834302546074492519
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: 2735210070473649199
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -1548593319462408313
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: -2621796062935843167
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: 4537453997000947516
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: -7680181175834432973
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -6143690735199036772
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: -7382822713574457670
+    second: Run //// Bone_Leg_L
+  - first:
+      74: -3325886142903160442
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: -1439989800011216322
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: -8385066012757032356
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: 2946958812722026495
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: -6451976713513252967
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: -2055601500010644523
+    second: Die //// Bone_Foot_L
+  - first:
+      74: 5983548863002253933
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: 4591365233146987615
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: -1055159622720742225
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: 6046957086244881567
+    second: Land //// Bone_Foot_L
+  - first:
+      74: 6237439761022824221
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: -487527335678690455
+    second: Run //// Bone_Foot_L
+  - first:
+      74: -6496115418224987016
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: -2326417039429356603
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: -8097251776891375099
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: -869444247133368138
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: -3390469696206616386
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: 536697772987318305
+    second: Die //// Bone_Leg_R
+  - first:
+      74: -5086158013798899664
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: -8529611314773176551
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: -8676734532616703778
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: -4134561171989830149
+    second: Land //// Bone_Leg_R
+  - first:
+      74: 6700298594581880656
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: -1911278942028147162
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -1039641872619213781
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: 7202098741671557694
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: -7784150105855849603
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: -1092920289043793990
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: -4205650308134895051
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: 5342983347394519005
+    second: Die //// Bone_Foot_R
+  - first:
+      74: 4018687932123402574
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: -4254271956904165334
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: -803940719870467085
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: 7388553792081779267
+    second: Land //// Bone_Foot_R
+  - first:
+      74: 4255404550381764282
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: 8424089322702941994
+    second: Run //// Bone_Foot_R
+  - first:
+      74: 286544253698491184
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: -121016416080909042
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: 3090747244296184236
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: -2668281516508052974
+    second: Swing //// Bone_Body
+  - first:
+      74: -403491814553877108
+    second: Shot //// Bone_Body
+  - first:
+      74: 3390694689333667336
+    second: Die //// Bone_Body
+  - first:
+      74: -4858473065437112885
+    second: Dodge //// Bone_Body
+  - first:
+      74: -6898201300546112653
+    second: Idle //// Bone_Body
+  - first:
+      74: 5570986626536165362
+    second: Jump //// Bone_Body
+  - first:
+      74: -1850855169089583580
+    second: Land //// Bone_Body
+  - first:
+      74: -1387826216588112764
+    second: Reload //// Bone_Body
+  - first:
+      74: -8333682947497788037
+    second: Run //// Bone_Body
+  - first:
+      74: -8017290137196958328
+    second: Swap //// Bone_Body
+  - first:
+      74: 5761858513419631874
+    second: Throw //// Bone_Body
+  - first:
+      74: 4255500912661747324
+    second: Walk //// Bone_Body
+  - first:
+      74: -6416514235763348545
+    second: Swing //// Bone_Neck
+  - first:
+      74: -182129859905513893
+    second: Shot //// Bone_Neck
+  - first:
+      74: -8666122547908624617
+    second: Die //// Bone_Neck
+  - first:
+      74: 1036689725808647714
+    second: Dodge //// Bone_Neck
+  - first:
+      74: -5371616503943499405
+    second: Idle //// Bone_Neck
+  - first:
+      74: -4633450686808597986
+    second: Jump //// Bone_Neck
+  - first:
+      74: -6046302734554520287
+    second: Land //// Bone_Neck
+  - first:
+      74: -2979170103491415407
+    second: Reload //// Bone_Neck
+  - first:
+      74: 3610912678925137648
+    second: Run //// Bone_Neck
+  - first:
+      74: -8479773688497135300
+    second: Swap //// Bone_Neck
+  - first:
+      74: -3947085562501864426
+    second: Throw //// Bone_Neck
+  - first:
+      74: 297720453196837663
+    second: Walk //// Bone_Neck
+  - first:
+      74: 2478798063095673518
+    second: Swing //// Bone_Head
+  - first:
+      74: -478656668302062720
+    second: Shot //// Bone_Head
+  - first:
+      74: -727469645720555964
+    second: Die //// Bone_Head
+  - first:
+      74: -2759462974788488888
+    second: Dodge //// Bone_Head
+  - first:
+      74: -608611181388442414
+    second: Idle //// Bone_Head
+  - first:
+      74: -8053068759327084346
+    second: Jump //// Bone_Head
+  - first:
+      74: -137312640087496551
+    second: Land //// Bone_Head
+  - first:
+      74: 2511708975792803163
+    second: Reload //// Bone_Head
+  - first:
+      74: -1386224387562294608
+    second: Run //// Bone_Head
+  - first:
+      74: -6776068522396635067
+    second: Swap //// Bone_Head
+  - first:
+      74: 9132372292983823000
+    second: Throw //// Bone_Head
+  - first:
+      74: -3831008827390041601
+    second: Walk //// Bone_Head
+  - first:
+      74: 2629549420647866218
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: -6260616459963136458
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: -325386335740523225
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -7353607885039415274
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: -5224111318306398588
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: 3726432806250159851
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: -843555134281180059
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: -5338614437518738187
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: 4090847958281299336
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: -2122679155654252660
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: 5028634408389242148
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: -4858801946394227378
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: -6643564832442362285
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: 7231619599961285293
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: 2201602518569335670
+    second: Die //// Bone_Arm_L
+  - first:
+      74: -7105478056491757388
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: 8145138374862044670
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: -854129273726586637
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: 2297939035993220010
+    second: Land //// Bone_Arm_L
+  - first:
+      74: -6789918047078825289
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: -3531853971159548197
+    second: Run //// Bone_Arm_L
+  - first:
+      74: -6224763126040404156
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: 8633772569507079733
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: 1701652761579241967
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: -7168991682862177027
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: -6677337975968941921
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: -4904493775621029110
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: -7666789491597753162
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: -5893726125830961688
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: -2627783027225548126
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: 924515636408599175
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: -787702804654056673
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: 5266277240890873217
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: 1835250757749790728
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: 2532605483411354410
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: -1197763672147310176
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: 849053518542821546
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: 598517771684265323
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -5616737472055210090
+    second: Die //// Bone_Arm_R
+  - first:
+      74: -7955989758735512159
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: -5208047314214202559
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: 2897399905217827496
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: -530496656751872107
+    second: Land //// Bone_Arm_R
+  - first:
+      74: 3619370810438480410
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: -2931470110258844335
+    second: Run //// Bone_Arm_R
+  - first:
+      74: 8440302137668334570
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: 8983318457457938665
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: -1632524268176423307
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: -173571760480532007
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: 3097715277615585342
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: -623908107104445228
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -654751160290957214
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: -1562849188175966169
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: -5988187234013415643
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: 2968076609625036526
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -5388567940933584355
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: -811702019038965557
+    second: Run //// Bone_Leg_L
+  - first:
+      74: -3647155525278074783
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: 4290406676766155595
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: 1651852969687615513
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: 6351235854346188006
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: 3080367205300619489
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: -450808393190341778
+    second: Die //// Bone_Foot_L
+  - first:
+      74: -1439828578744052975
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: 2610710246244215835
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: -9185787693161826420
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: -5586002344602004004
+    second: Land //// Bone_Foot_L
+  - first:
+      74: 1755161254792730458
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: -8762123058965890761
+    second: Run //// Bone_Foot_L
+  - first:
+      74: -6352210487572859261
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: -7905770847928424932
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: 7047787743642691231
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: -6101827987144094022
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: 5136026414468500265
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: -5494351930402468164
+    second: Die //// Bone_Leg_R
+  - first:
+      74: 8002637867419511866
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: -6780651695985861600
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: -2060102647511892109
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: -4080391924598976995
+    second: Land //// Bone_Leg_R
+  - first:
+      74: -6034493319041596382
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: 3318455295611927173
+    second: Run //// Bone_Leg_R
+  - first:
+      74: 786888472483101004
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: -3311158760754400137
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: 2191262521087885211
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: -3714606341689055019
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: -2890347930438125036
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: -4535985061277437070
+    second: Die //// Bone_Foot_R
+  - first:
+      74: 7506137895605599821
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: -56699052916090603
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: -4585646251758651767
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: -8151852479923123167
+    second: Land //// Bone_Foot_R
+  - first:
+      74: 8393954826947817783
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: 5697431258638679157
+    second: Run //// Bone_Foot_R
+  - first:
+      74: 4054834736369165216
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: -5077355614469786763
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: -5172096941200207441
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: -5322093935362858672
+    second: Swing //// Bone_Body
+  - first:
+      74: -8133938812470966916
+    second: Shot //// Bone_Body
+  - first:
+      74: 3777733305982306933
+    second: Die //// Bone_Body
+  - first:
+      74: 3305726967520993596
+    second: Dodge //// Bone_Body
+  - first:
+      74: 5115127960809733818
+    second: Idle //// Bone_Body
+  - first:
+      74: -6712999417790514086
+    second: Jump //// Bone_Body
+  - first:
+      74: -2988810689826488145
+    second: Land //// Bone_Body
+  - first:
+      74: 6871496010567101480
+    second: Reload //// Bone_Body
+  - first:
+      74: 6865975262752459662
+    second: Run //// Bone_Body
+  - first:
+      74: -1464484430292304001
+    second: Swap //// Bone_Body
+  - first:
+      74: 336100598714357115
+    second: Throw //// Bone_Body
+  - first:
+      74: -1267823076697323188
+    second: Walk //// Bone_Body
+  - first:
+      74: 8082446257746868289
+    second: Swing //// Bone_Neck
+  - first:
+      74: 5433759177411731901
+    second: Shot //// Bone_Neck
+  - first:
+      74: 2031305147009394513
+    second: Die //// Bone_Neck
+  - first:
+      74: 5680833832912664993
+    second: Dodge //// Bone_Neck
+  - first:
+      74: -7046340071986338473
+    second: Idle //// Bone_Neck
+  - first:
+      74: -3102982489395596169
+    second: Jump //// Bone_Neck
+  - first:
+      74: -8955134399209662877
+    second: Land //// Bone_Neck
+  - first:
+      74: 2071312025831120208
+    second: Reload //// Bone_Neck
+  - first:
+      74: -4613093057098785266
+    second: Run //// Bone_Neck
+  - first:
+      74: -7641501576918372157
+    second: Swap //// Bone_Neck
+  - first:
+      74: 4899888936082850431
+    second: Throw //// Bone_Neck
+  - first:
+      74: 220900688863540287
+    second: Walk //// Bone_Neck
+  - first:
+      74: 5558134513535211034
+    second: Swing //// Bone_Head
+  - first:
+      74: -8247484463237813386
+    second: Shot //// Bone_Head
+  - first:
+      74: 4529066503281075783
+    second: Die //// Bone_Head
+  - first:
+      74: -7135183203357875409
+    second: Dodge //// Bone_Head
+  - first:
+      74: 4293828231006800520
+    second: Idle //// Bone_Head
+  - first:
+      74: -5325070315166863586
+    second: Jump //// Bone_Head
+  - first:
+      74: 8632141277499340250
+    second: Land //// Bone_Head
+  - first:
+      74: -2489358340627744935
+    second: Reload //// Bone_Head
+  - first:
+      74: 7585991376306416225
+    second: Run //// Bone_Head
+  - first:
+      74: -2089010677744357259
+    second: Swap //// Bone_Head
+  - first:
+      74: -110405672766801981
+    second: Throw //// Bone_Head
+  - first:
+      74: 531400845651008809
+    second: Walk //// Bone_Head
+  - first:
+      74: 5414039902868780161
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: -4544577505506311271
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: -4403427374513133652
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -4159842658881970506
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: 6028145892607045819
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: -4820068404866487022
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: -4952520224373239576
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: 2283454644684032084
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: 2584295709504981698
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: 6551948039055757141
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: -8184283284820724062
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: -3803185920004106309
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: 516277932679014160
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: -8140907904903773449
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: -5871722252534257768
+    second: Die //// Bone_Arm_L
+  - first:
+      74: -8484113156402363998
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: 6882156015927379514
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: 4482354352265423345
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: 9210266066301234829
+    second: Land //// Bone_Arm_L
+  - first:
+      74: -2092472075023522952
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: -6057671263491554162
+    second: Run //// Bone_Arm_L
+  - first:
+      74: -9023172715720856501
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: -2448725387768548035
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: -3423531594772438042
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: 5716873098519215064
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: 4103420499048888516
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: 6363290236280478327
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: 4586793554538593453
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: -5330084525818451180
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: -5464798946913094178
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: -5395547648630640395
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: -776093875219488917
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: -8763241469427729613
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: -6057224119111286771
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: 3651703448803912933
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: 4639813006414536273
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: 6212105699602277580
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: -5704539886137349144
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -550005301682793475
+    second: Die //// Bone_Arm_R
+  - first:
+      74: 7841729350144287804
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: -9013791387727300556
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: -2595316562928059807
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: -7944278858338915499
+    second: Land //// Bone_Arm_R
+  - first:
+      74: -4167596276425426657
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: -7565596629479100063
+    second: Run //// Bone_Arm_R
+  - first:
+      74: 4181964002972456314
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: 1335586727047581009
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: -7085918843624572443
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: -1946720529261080199
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: 2655425575671658602
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: -9054128593656218523
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -388407380979491752
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: -4148824873184300009
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: 7609156963612087904
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: -1370094134967012206
+    second: Land //// Bone_Leg_L
+  - first:
+      74: 8507149005415479001
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: -1123745078046421107
+    second: Run //// Bone_Leg_L
+  - first:
+      74: 4715110396447100644
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: 5499601429311314356
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: -8460762625718576790
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: -2393290459410729251
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: -3996788827897610707
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: -1938831102322882867
+    second: Die //// Bone_Foot_L
+  - first:
+      74: -3838968925766227415
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: 395936046382148851
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: -8862044290845240278
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: -4880029980386675832
+    second: Land //// Bone_Foot_L
+  - first:
+      74: -7169265025969883047
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: -3576132522773220309
+    second: Run //// Bone_Foot_L
+  - first:
+      74: 556856731284783631
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: -8374765877366138549
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: -866459879359955881
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: 8086559891859379276
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: -875764013377096674
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: -241328540356919133
+    second: Die //// Bone_Leg_R
+  - first:
+      74: -117968825940892276
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: 2526585288896555512
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: 3732458371982534687
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: -5856040906077293975
+    second: Land //// Bone_Leg_R
+  - first:
+      74: -6138174933931977511
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: 1479159920073880867
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -2694941724986436711
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: 7331369905864077582
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: 2147351451023689551
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: -7532236619361832460
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: -8428400361198847099
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: 8297718161300622615
+    second: Die //// Bone_Foot_R
+  - first:
+      74: -3773178998857762313
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: -2314010231995207144
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: 792795923511402689
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: 1417398977628570070
+    second: Land //// Bone_Foot_R
+  - first:
+      74: 9082577044785679094
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: 570130546281481123
+    second: Run //// Bone_Foot_R
+  - first:
+      74: 3046143169249426584
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: -8301077327132198269
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: -1044669125038146414
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: -5596817140557243286
+    second: Swing //// Bone_Body
+  - first:
+      74: -2801765816444218156
+    second: Shot //// Bone_Body
+  - first:
+      74: 72166191461676543
+    second: Die //// Bone_Body
+  - first:
+      74: -81689915559245417
+    second: Dodge //// Bone_Body
+  - first:
+      74: 2122929695599537842
+    second: Idle //// Bone_Body
+  - first:
+      74: -5237808049588223057
+    second: Jump //// Bone_Body
+  - first:
+      74: 8465633793958770423
+    second: Land //// Bone_Body
+  - first:
+      74: -5401128945510765693
+    second: Reload //// Bone_Body
+  - first:
+      74: 5862082479293875859
+    second: Run //// Bone_Body
+  - first:
+      74: -1834665936668569935
+    second: Swap //// Bone_Body
+  - first:
+      74: -884730853957766740
+    second: Throw //// Bone_Body
+  - first:
+      74: -978339574739937258
+    second: Walk //// Bone_Body
+  - first:
+      74: 1510113260378713646
+    second: Swing //// Bone_Neck
+  - first:
+      74: 2036212125847478337
+    second: Shot //// Bone_Neck
+  - first:
+      74: 7954695028036972800
+    second: Die //// Bone_Neck
+  - first:
+      74: 8045570090808802512
+    second: Dodge //// Bone_Neck
+  - first:
+      74: 5482154723635036418
+    second: Idle //// Bone_Neck
+  - first:
+      74: 6985465280520269035
+    second: Jump //// Bone_Neck
+  - first:
+      74: 5907916778521307896
+    second: Land //// Bone_Neck
+  - first:
+      74: -905303250270594195
+    second: Reload //// Bone_Neck
+  - first:
+      74: 7617183677178464258
+    second: Run //// Bone_Neck
+  - first:
+      74: 4705086029601242704
+    second: Swap //// Bone_Neck
+  - first:
+      74: -3500132980477739876
+    second: Throw //// Bone_Neck
+  - first:
+      74: -8624874147238659622
+    second: Walk //// Bone_Neck
+  - first:
+      74: 5497607698715879107
+    second: Swing //// Bone_Head
+  - first:
+      74: -1041599969877383108
+    second: Shot //// Bone_Head
+  - first:
+      74: 9146334260734746725
+    second: Die //// Bone_Head
+  - first:
+      74: -3860915509167486513
+    second: Dodge //// Bone_Head
+  - first:
+      74: -3748274528680810392
+    second: Idle //// Bone_Head
+  - first:
+      74: -3479588199518837154
+    second: Jump //// Bone_Head
+  - first:
+      74: 449852697527227000
+    second: Land //// Bone_Head
+  - first:
+      74: -7389732468208210533
+    second: Reload //// Bone_Head
+  - first:
+      74: 7199715903440178141
+    second: Run //// Bone_Head
+  - first:
+      74: -2305846820056075166
+    second: Swap //// Bone_Head
+  - first:
+      74: -1094602144825086159
+    second: Throw //// Bone_Head
+  - first:
+      74: 7991629483843024592
+    second: Walk //// Bone_Head
+  - first:
+      74: -2936734737679241071
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: 2322667297774589766
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: 5912609328667615272
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -7775202912774609279
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: -7252453749590833071
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: -946340238721227730
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: 4203669798671814148
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: 8360067097623771988
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: -1045991184846499251
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: 5516942291582974270
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: -2396709160503481363
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: 1058150380004680677
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: 1608772285410662613
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: -2369845996202174601
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: 8172640596866310376
+    second: Die //// Bone_Arm_L
+  - first:
+      74: -1982621311542426925
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: 424185563705611321
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: 8600307119793292908
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: -8397634083305465597
+    second: Land //// Bone_Arm_L
+  - first:
+      74: -8002940243566910883
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: -2523740724640516402
+    second: Run //// Bone_Arm_L
+  - first:
+      74: 3209358323981555888
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: 8262645845566915251
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: -96525987052486292
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: 7006147148800761485
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: -3756225604948153180
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: -4642872002592694066
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: -6632197794259200748
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: 6296554378704459780
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: -5468752997424097310
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: -2939462676060684887
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: -7515506111663572516
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: 6383517462157646635
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: -2491524824210003770
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: -5434114237789469030
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: -5073955331859408966
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: -3322099954692645233
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: 2480328341588288333
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -5456451592554159585
+    second: Die //// Bone_Arm_R
+  - first:
+      74: -7062409253169626514
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: 2043217346826769518
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: -5791480778405665196
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: 5989602146086578511
+    second: Land //// Bone_Arm_R
+  - first:
+      74: -4198863379272578101
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: -2080387567425023852
+    second: Run //// Bone_Arm_R
+  - first:
+      74: 7299128779037765885
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: 924837180941572246
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: 5773601923597876419
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: -7210366755426026789
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: -2282960790889365144
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: -5597615469864876153
+    second: Die //// Bone_Leg_L
+  - first:
+      74: 5320682644782238019
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: -1236901183686570728
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: -2886092313086684343
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: 3033446420970645359
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -8643567976557655674
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: 3357698704019038032
+    second: Run //// Bone_Leg_L
+  - first:
+      74: 6544535480209926956
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: 4124140969969619184
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: 8644898274963758203
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: -4834089481988687583
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: -3084536390839421324
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: -5511837940061803688
+    second: Die //// Bone_Foot_L
+  - first:
+      74: -6724831112649454064
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: -9184571960710150873
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: 2790049173266696082
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: 3969906528078665433
+    second: Land //// Bone_Foot_L
+  - first:
+      74: 8842284014685136987
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: -9204729235211177513
+    second: Run //// Bone_Foot_L
+  - first:
+      74: 1323320099250399135
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: 967826006898983723
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: -2227450601510391413
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: -7901902612914222382
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: 5085356951847289132
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: -3760956674758662170
+    second: Die //// Bone_Leg_R
+  - first:
+      74: -7871813874179829354
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: -4630851539201721192
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: -8574164168529762155
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: -4857299558521872370
+    second: Land //// Bone_Leg_R
+  - first:
+      74: -1830736465922773348
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: 3992163344007372385
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -5136302457811546585
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: 4868026891593004395
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: -1285717853381247170
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: 5471505796990164003
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: -3223930671594276896
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: -7312257176134924503
+    second: Die //// Bone_Foot_R
+  - first:
+      74: 617012815375812895
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: 35973769979293877
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: 4420993801394947049
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: -720147666888873706
+    second: Land //// Bone_Foot_R
+  - first:
+      74: 952910762738077501
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: 9125502155990254144
+    second: Run //// Bone_Foot_R
+  - first:
+      74: -125917554715510658
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: -2867487023775185203
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: 6373390859956781020
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: 8826432495164027247
+    second: Swing //// Bone_Body
+  - first:
+      74: 1913272955548129632
+    second: Shot //// Bone_Body
+  - first:
+      74: 3494224012044923172
+    second: Die //// Bone_Body
+  - first:
+      74: -6560042227204423776
+    second: Dodge //// Bone_Body
+  - first:
+      74: 2719378483595014494
+    second: Idle //// Bone_Body
+  - first:
+      74: -6098465967949447340
+    second: Jump //// Bone_Body
+  - first:
+      74: 5102795830040299200
+    second: Land //// Bone_Body
+  - first:
+      74: 6538164896937043213
+    second: Reload //// Bone_Body
+  - first:
+      74: -4501323282157163758
+    second: Run //// Bone_Body
+  - first:
+      74: -223737531378186021
+    second: Swap //// Bone_Body
+  - first:
+      74: -6597940793236778326
+    second: Throw //// Bone_Body
+  - first:
+      74: 4948617879532833529
+    second: Walk //// Bone_Body
+  - first:
+      74: -7966323340087318266
+    second: Swing //// Bone_Neck
+  - first:
+      74: 7630452679953751801
+    second: Shot //// Bone_Neck
+  - first:
+      74: -5214406840312173025
+    second: Die //// Bone_Neck
+  - first:
+      74: 357444106939783334
+    second: Dodge //// Bone_Neck
+  - first:
+      74: 1161861070511562592
+    second: Idle //// Bone_Neck
+  - first:
+      74: 7945764070499988321
+    second: Jump //// Bone_Neck
+  - first:
+      74: -1622487745802076395
+    second: Land //// Bone_Neck
+  - first:
+      74: 2020147390183490120
+    second: Reload //// Bone_Neck
+  - first:
+      74: -833856853018402497
+    second: Run //// Bone_Neck
+  - first:
+      74: 3984123993279476520
+    second: Swap //// Bone_Neck
+  - first:
+      74: 4991411820998406128
+    second: Throw //// Bone_Neck
+  - first:
+      74: 8967475240174210152
+    second: Walk //// Bone_Neck
+  - first:
+      74: -1140640870301086175
+    second: Swing //// Bone_Head
+  - first:
+      74: 6215270138245505091
+    second: Shot //// Bone_Head
+  - first:
+      74: 6211073594015195419
+    second: Die //// Bone_Head
+  - first:
+      74: 8783820995589315825
+    second: Dodge //// Bone_Head
+  - first:
+      74: -5254344057739126689
+    second: Idle //// Bone_Head
+  - first:
+      74: 8127981926418533059
+    second: Jump //// Bone_Head
+  - first:
+      74: -5310236983225687346
+    second: Land //// Bone_Head
+  - first:
+      74: 983117009955461781
+    second: Reload //// Bone_Head
+  - first:
+      74: -452031835759383151
+    second: Run //// Bone_Head
+  - first:
+      74: -8866536325502544113
+    second: Swap //// Bone_Head
+  - first:
+      74: 6092341650120585078
+    second: Throw //// Bone_Head
+  - first:
+      74: 5654099726247880321
+    second: Walk //// Bone_Head
+  - first:
+      74: -4399995828983036115
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: 6832111166951437749
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: 1169733226825693871
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: 4029745623123309235
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: 7929924354351762728
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: 6283246802273071969
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: 997772070586049335
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: -2351322345982019333
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: -7022713466479370372
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: 2665867365606202972
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: -9136933873162381755
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: -4376589409047011085
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: 4494273022187427280
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: -4511713171295796144
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: 2611698315678264198
+    second: Die //// Bone_Arm_L
+  - first:
+      74: -4392688356917123224
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: -7094620776337484887
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: 8012878792794514174
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: -8898306310308452089
+    second: Land //// Bone_Arm_L
+  - first:
+      74: 7132173982302529820
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: -1305782835352818166
+    second: Run //// Bone_Arm_L
+  - first:
+      74: 4142061146450198987
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: 1902638209291958617
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: 9030353307887586895
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: 8261777226766215430
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: 2195970107363797134
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: -450763143893139497
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: -4125945002808863071
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: 426124630207275477
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: -8522745511240560981
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: 2011220287240285680
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: 2954722102033680258
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: -4458320276868724226
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: 8775035363373107366
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: -1809216151239354105
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: 1948751519276089183
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: 6699342282664845233
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: -3695797644460579549
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -8583076369244374990
+    second: Die //// Bone_Arm_R
+  - first:
+      74: -6236791412318284544
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: 518020586190550220
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: -133788231209055001
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: 780415063097886570
+    second: Land //// Bone_Arm_R
+  - first:
+      74: 1649383397759005575
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: -2761064939882289891
+    second: Run //// Bone_Arm_R
+  - first:
+      74: -1753757800314528910
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: -8177671449330009542
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: 2849851331413879226
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: 8722830011197950665
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: -8322175595287529015
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: 5136643282896436110
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -6293153264359129297
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: -5408830472518573528
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: -1477101138803858616
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: -6424630803394735072
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -3676484487096777493
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: 7413631232062066603
+    second: Run //// Bone_Leg_L
+  - first:
+      74: -6661583939852185950
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: -2105958147325688428
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: -8231311560767773403
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: 1702150099692202441
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: 6502168425300617752
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: -6140350882271616094
+    second: Die //// Bone_Foot_L
+  - first:
+      74: 3804268699491429523
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: -4393649820360550163
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: 4538182303285313083
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: 3309689492275900048
+    second: Land //// Bone_Foot_L
+  - first:
+      74: 7330716108943420281
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: 6978204012004563703
+    second: Run //// Bone_Foot_L
+  - first:
+      74: -4774862172356014973
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: 7714425181831155690
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: -1686010878029776709
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: 1660245871333524045
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: -6850811552318859209
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: -1782953752937293288
+    second: Die //// Bone_Leg_R
+  - first:
+      74: 7812028069655425978
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: -4330021594411705997
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: 7265215759015400929
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: 961283671425345193
+    second: Land //// Bone_Leg_R
+  - first:
+      74: -2939725047528317994
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: -4691017220890658390
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -3025182966908666366
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: 4724451554113060969
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: -9175956409763843242
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: 7451734101713230641
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: -5636270737598909240
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: -5624148585563926754
+    second: Die //// Bone_Foot_R
+  - first:
+      74: 4213630164653949173
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: 5749513826803589615
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: 7438286141213606769
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: 1280096678859599530
+    second: Land //// Bone_Foot_R
+  - first:
+      74: -3303697581516967738
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: 3236326441019318738
+    second: Run //// Bone_Foot_R
+  - first:
+      74: -7694985545111328071
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: 8460323681310795844
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: -90463290118428545
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: 5749846076223309199
+    second: Swing //// Bone_Body
+  - first:
+      74: -9120209446068047975
+    second: Shot //// Bone_Body
+  - first:
+      74: -140359261770047156
+    second: Die //// Bone_Body
+  - first:
+      74: 3595331947714141983
+    second: Dodge //// Bone_Body
+  - first:
+      74: -7616185389417833987
+    second: Idle //// Bone_Body
+  - first:
+      74: 2114957073559654229
+    second: Jump //// Bone_Body
+  - first:
+      74: 5533425296894993090
+    second: Land //// Bone_Body
+  - first:
+      74: -6193841423102394787
+    second: Reload //// Bone_Body
+  - first:
+      74: -6017142482826806609
+    second: Run //// Bone_Body
+  - first:
+      74: 6001268195509895135
+    second: Swap //// Bone_Body
+  - first:
+      74: -6099012005950526842
+    second: Throw //// Bone_Body
+  - first:
+      74: -4492721703475041926
+    second: Walk //// Bone_Body
+  - first:
+      74: -8369828177721830342
+    second: Swing //// Bone_Neck
+  - first:
+      74: 2816828523729677864
+    second: Shot //// Bone_Neck
+  - first:
+      74: -5429427034398008966
+    second: Die //// Bone_Neck
+  - first:
+      74: 411319284666926931
+    second: Dodge //// Bone_Neck
+  - first:
+      74: -2013132203438613900
+    second: Idle //// Bone_Neck
+  - first:
+      74: -1915594986424069130
+    second: Jump //// Bone_Neck
+  - first:
+      74: -4494421312080016007
+    second: Land //// Bone_Neck
+  - first:
+      74: 1510313774151386517
+    second: Reload //// Bone_Neck
+  - first:
+      74: 3131438255555214343
+    second: Run //// Bone_Neck
+  - first:
+      74: -982988644667785790
+    second: Swap //// Bone_Neck
+  - first:
+      74: 7018043491002480452
+    second: Throw //// Bone_Neck
+  - first:
+      74: -5999757232195410408
+    second: Walk //// Bone_Neck
+  - first:
+      74: -3264220377163280258
+    second: Swing //// Bone_Head
+  - first:
+      74: 3325092124694949927
+    second: Shot //// Bone_Head
+  - first:
+      74: -1951393672917949591
+    second: Die //// Bone_Head
+  - first:
+      74: -3490355572141442521
+    second: Dodge //// Bone_Head
+  - first:
+      74: -8588140249408725403
+    second: Idle //// Bone_Head
+  - first:
+      74: 5390318155168657546
+    second: Jump //// Bone_Head
+  - first:
+      74: -7495339961126475493
+    second: Land //// Bone_Head
+  - first:
+      74: -5987094085674928261
+    second: Reload //// Bone_Head
+  - first:
+      74: 1008954279906180518
+    second: Run //// Bone_Head
+  - first:
+      74: 6652901941836005970
+    second: Swap //// Bone_Head
+  - first:
+      74: -6492778674253852631
+    second: Throw //// Bone_Head
+  - first:
+      74: -8746412376469504323
+    second: Walk //// Bone_Head
+  - first:
+      74: 7566469777280442777
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: -8744496845294329246
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: 251039742498651388
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -7150332165019594062
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: -7456818500154056640
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: 6168129143093250815
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: 8308080707289298147
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: -1244025743091572724
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: -3284849092555897342
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: -2849146354384747625
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: -5843636835268285427
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: 8685387615138027107
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: 1395528587098966036
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: -1371373945405687551
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: -886208347809158036
+    second: Die //// Bone_Arm_L
+  - first:
+      74: -1125408470833777072
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: -7198899342042235929
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: 6742911170954418179
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: -8412271453676815182
+    second: Land //// Bone_Arm_L
+  - first:
+      74: 7122901026330357562
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: -6685261251741324736
+    second: Run //// Bone_Arm_L
+  - first:
+      74: 3386440769689212895
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: 6612038256508630202
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: -7799805422378909291
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: 8860053090425076797
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: -5361850779417503350
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: -158801395885731136
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: -5572057959403516605
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: -6925573924805570504
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: -7085099760672836177
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: -9207110660550588451
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: 4451820308784859285
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: 3488536416069487324
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: 6307015546702945628
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: 8307966166395290405
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: -3747593652406620808
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: -2691515500773097534
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: 3524722517841581458
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -4007215537680536310
+    second: Die //// Bone_Arm_R
+  - first:
+      74: 6027254306469614844
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: -1743339363014412735
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: -2673944529186217331
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: -4798493127088045315
+    second: Land //// Bone_Arm_R
+  - first:
+      74: -2006644910192972904
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: -353795272040563428
+    second: Run //// Bone_Arm_R
+  - first:
+      74: -782895502550237912
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: 794994904461019666
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: -1007263705432591880
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: -2048020644872278518
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: -7490300295325828010
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: 1377409720171614371
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -7181476419517017800
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: 5465556764797601332
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: 6409584654673266226
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: 9199116919700113697
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -3609939492666315255
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: -2010622414176376649
+    second: Run //// Bone_Leg_L
+  - first:
+      74: -5213937215730991389
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: -2323266279554418967
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: 6671403544893352738
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: 6876877436104944226
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: 3136728905141214090
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: -6978722482696879007
+    second: Die //// Bone_Foot_L
+  - first:
+      74: 4878488742734895961
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: -2510479401885181812
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: 4951067634574385216
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: 6220614506063560584
+    second: Land //// Bone_Foot_L
+  - first:
+      74: 4488701734907806420
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: 12317941283150956
+    second: Run //// Bone_Foot_L
+  - first:
+      74: -2555449709514768583
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: -469079482319530890
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: -4737282174910352974
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: -6267781655545060847
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: 7686732810526937030
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: 4378701824552643043
+    second: Die //// Bone_Leg_R
+  - first:
+      74: 8379704765556411803
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: -7542064466006484181
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: -1610511996761464519
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: -9049276208213550895
+    second: Land //// Bone_Leg_R
+  - first:
+      74: -2627465459875835517
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: 6570120769675889217
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -7403385526058832071
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: -8810491371734272095
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: 2323366149055676528
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: 1801507748577228947
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: 8091475328793888570
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: 1426387439132413261
+    second: Die //// Bone_Foot_R
+  - first:
+      74: 1329053349094768788
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: 2463099901360575474
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: -4873986022801066633
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: 7021703561276289772
+    second: Land //// Bone_Foot_R
+  - first:
+      74: -7912971614421861744
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: 3808965089857633465
+    second: Run //// Bone_Foot_R
+  - first:
+      74: -4945507951309875026
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: -4943525859997021161
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: -6379724180509718509
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: -6853182505901369562
+    second: Swing //// Bone_Body
+  - first:
+      74: 1741164916934886651
+    second: Shot //// Bone_Body
+  - first:
+      74: -5468581950666179724
+    second: Die //// Bone_Body
+  - first:
+      74: 6746868052339058902
+    second: Dodge //// Bone_Body
+  - first:
+      74: 4287740004821739912
+    second: Idle //// Bone_Body
+  - first:
+      74: -7490618340264537695
+    second: Jump //// Bone_Body
+  - first:
+      74: 5831117086314458264
+    second: Land //// Bone_Body
+  - first:
+      74: 3004170473917647213
+    second: Reload //// Bone_Body
+  - first:
+      74: 1868299986148288375
+    second: Run //// Bone_Body
+  - first:
+      74: -1859703299378840400
+    second: Swap //// Bone_Body
+  - first:
+      74: -542778235481105267
+    second: Throw //// Bone_Body
+  - first:
+      74: -8262605049355877183
+    second: Walk //// Bone_Body
+  - first:
+      74: -4635374577957237799
+    second: Swing //// Bone_Neck
+  - first:
+      74: -3351705785382330355
+    second: Shot //// Bone_Neck
+  - first:
+      74: 5642543389588675354
+    second: Die //// Bone_Neck
+  - first:
+      74: -7174994012384186237
+    second: Dodge //// Bone_Neck
+  - first:
+      74: -5928987293922973314
+    second: Idle //// Bone_Neck
+  - first:
+      74: -7467324608577554723
+    second: Jump //// Bone_Neck
+  - first:
+      74: 2105357904808143160
+    second: Land //// Bone_Neck
+  - first:
+      74: -6440689588500332485
+    second: Reload //// Bone_Neck
+  - first:
+      74: -5290127296858025040
+    second: Run //// Bone_Neck
+  - first:
+      74: 7143869849603249523
+    second: Swap //// Bone_Neck
+  - first:
+      74: -5215545294469856650
+    second: Throw //// Bone_Neck
+  - first:
+      74: 2225755529328590712
+    second: Walk //// Bone_Neck
+  - first:
+      74: -3398697147711246570
+    second: Swing //// Bone_Head
+  - first:
+      74: 3147266640643152216
+    second: Shot //// Bone_Head
+  - first:
+      74: -8608580010388391313
+    second: Die //// Bone_Head
+  - first:
+      74: -7194851390486966842
+    second: Dodge //// Bone_Head
+  - first:
+      74: -1577555065746377556
+    second: Idle //// Bone_Head
+  - first:
+      74: -3359399916854406128
+    second: Jump //// Bone_Head
+  - first:
+      74: -2391633907240633177
+    second: Land //// Bone_Head
+  - first:
+      74: -3834337267052678056
+    second: Reload //// Bone_Head
+  - first:
+      74: -8050686655590016847
+    second: Run //// Bone_Head
+  - first:
+      74: 8431367621757509866
+    second: Swap //// Bone_Head
+  - first:
+      74: 1667612848729570158
+    second: Throw //// Bone_Head
+  - first:
+      74: -4731162686164801709
+    second: Walk //// Bone_Head
+  - first:
+      74: 5453163649773681194
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: -8620207089763157214
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: -4819996377547857402
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -3441789151385007491
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: 2020242030744406494
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: 1590671847038877794
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: -2239674319690293715
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: 4904409200358072109
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: 5185774544340302167
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: -5854665074865910585
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: -2814552322664152724
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: 1512693926711120975
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: 1014674375191242501
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: -3891060004657953663
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: -5506131695737014441
+    second: Die //// Bone_Arm_L
+  - first:
+      74: 8449093296432774671
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: 3899221664293205251
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: 4499753512965583892
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: -4018485180172566794
+    second: Land //// Bone_Arm_L
+  - first:
+      74: 6321895069651815086
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: -240332035207552065
+    second: Run //// Bone_Arm_L
+  - first:
+      74: 3725114478085070978
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: 1968657367305553422
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: 4952390933866375095
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: -3135194467547627704
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: 8521413350975029941
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: 2912871863498684466
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: 3513135853032386461
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: 5247699893639055901
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: 5943434818917404926
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: -6894775487302144057
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: 5261667020319776872
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: 3312231764211114370
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: -3056189942540103884
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: 5260979508178674343
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: -8888692239614396458
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: 7169657162017326926
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: 231221348435364957
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: 2660206465289516390
+    second: Die //// Bone_Arm_R
+  - first:
+      74: -1131822783832881676
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: 256899273915255461
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: 8139128466101248499
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: 5367597167103604804
+    second: Land //// Bone_Arm_R
+  - first:
+      74: 1275247717909928533
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: 9010228587464212995
+    second: Run //// Bone_Arm_R
+  - first:
+      74: -7110223394723844473
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: -7533195585725015970
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: 6599505016971810810
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: 3851597117654021424
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: -8913847510798810780
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: -8169020252232449691
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -1679068012271994209
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: -5204652196914332707
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: -7843582361130023204
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: -3969658315176005822
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -401836154491528030
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: -4024946850703375866
+    second: Run //// Bone_Leg_L
+  - first:
+      74: 6885318505388229357
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: -6218283113353011665
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: -2202413396849495957
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: 8242564840924161891
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: -5852035351873975918
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: -2024884758199377987
+    second: Die //// Bone_Foot_L
+  - first:
+      74: -3401304171028367578
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: -7851362434824417561
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: -2140172270772243981
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: 1036966871284369629
+    second: Land //// Bone_Foot_L
+  - first:
+      74: -1438310725542602418
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: -873330169535357806
+    second: Run //// Bone_Foot_L
+  - first:
+      74: -3799186058218818177
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: -815517011375318538
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: -3504090937908983804
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: -4716130044996041825
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: 2011245227126785404
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: -1845724948379443605
+    second: Die //// Bone_Leg_R
+  - first:
+      74: 2003237577797967250
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: -114643634180402525
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: -1779251809163175210
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: 6531432174664530252
+    second: Land //// Bone_Leg_R
+  - first:
+      74: -6914729623938134537
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: -3714284659392077184
+    second: Run //// Bone_Leg_R
+  - first:
+      74: 5950281592123544253
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: -803180942468860377
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: 8496631758148474198
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: -7528662783183315994
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: -2563449561473349882
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: -8204504089442567127
+    second: Die //// Bone_Foot_R
+  - first:
+      74: 4805837018578412134
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: 3431926872995065510
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: -7531292695105284968
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: -4917451576953906205
+    second: Land //// Bone_Foot_R
+  - first:
+      74: 8568770872366347556
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: -8386041161895487229
+    second: Run //// Bone_Foot_R
+  - first:
+      74: 6263282331396662036
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: 7240215735886293389
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: -962129534316997253
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: -5717165570095205831
+    second: Swing //// Bone_Body
+  - first:
+      74: -6189605817303282245
+    second: Shot //// Bone_Body
+  - first:
+      74: -4935955477406888158
+    second: Die //// Bone_Body
+  - first:
+      74: 5352102726561685096
+    second: Dodge //// Bone_Body
+  - first:
+      74: 8715206134061370614
+    second: Idle //// Bone_Body
+  - first:
+      74: -238611481217205780
+    second: Jump //// Bone_Body
+  - first:
+      74: 4073318272601171056
+    second: Land //// Bone_Body
+  - first:
+      74: -4639191184679189318
+    second: Reload //// Bone_Body
+  - first:
+      74: -7045164995454687420
+    second: Run //// Bone_Body
+  - first:
+      74: -2813912004486583256
+    second: Swap //// Bone_Body
+  - first:
+      74: 5232113985404020622
+    second: Throw //// Bone_Body
+  - first:
+      74: -8848501664141710467
+    second: Walk //// Bone_Body
+  - first:
+      74: -5190604720145891396
+    second: Swing //// Bone_Neck
+  - first:
+      74: -3669507793347942292
+    second: Shot //// Bone_Neck
+  - first:
+      74: 5202968670597084230
+    second: Die //// Bone_Neck
+  - first:
+      74: -5114120507944158344
+    second: Dodge //// Bone_Neck
+  - first:
+      74: -2309643859139194247
+    second: Idle //// Bone_Neck
+  - first:
+      74: -1902403538546096264
+    second: Jump //// Bone_Neck
+  - first:
+      74: 7817174064365532587
+    second: Land //// Bone_Neck
+  - first:
+      74: 796941432386066951
+    second: Reload //// Bone_Neck
+  - first:
+      74: 784132726308896259
+    second: Run //// Bone_Neck
+  - first:
+      74: 8103947992535358539
+    second: Swap //// Bone_Neck
+  - first:
+      74: -2472945741354865389
+    second: Throw //// Bone_Neck
+  - first:
+      74: -801940913706445442
+    second: Walk //// Bone_Neck
+  - first:
+      74: 2695001658954991623
+    second: Swing //// Bone_Head
+  - first:
+      74: 3456875715449480048
+    second: Shot //// Bone_Head
+  - first:
+      74: -8118001146407542545
+    second: Die //// Bone_Head
+  - first:
+      74: 1713343690414145495
+    second: Dodge //// Bone_Head
+  - first:
+      74: -8574012079476493104
+    second: Idle //// Bone_Head
+  - first:
+      74: -125814181584499521
+    second: Jump //// Bone_Head
+  - first:
+      74: -8684951627245359169
+    second: Land //// Bone_Head
+  - first:
+      74: -930959286263150361
+    second: Reload //// Bone_Head
+  - first:
+      74: -2035292028152754431
+    second: Run //// Bone_Head
+  - first:
+      74: -1002021720878138756
+    second: Swap //// Bone_Head
+  - first:
+      74: -6548202802659471927
+    second: Throw //// Bone_Head
+  - first:
+      74: -2093343048266898541
+    second: Walk //// Bone_Head
+  - first:
+      74: 2305832640331559997
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: -18476798536260893
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: -8989317100008341195
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -81235094786206706
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: -971828032195096948
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: -7430208133644588884
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: -7850511797415432361
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: 2915546367634292130
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: -6102920905941354240
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: -2398780287834924175
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: -1046089442127663709
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: 2263028445611157071
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: -5765109084504729452
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: 141800572977501881
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: -692133054327475327
+    second: Die //// Bone_Arm_L
+  - first:
+      74: -4119502446772270172
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: -4493838425019207674
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: 1178707459954375254
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: 3102543232666404725
+    second: Land //// Bone_Arm_L
+  - first:
+      74: 2843958394155109044
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: -5924052030260180801
+    second: Run //// Bone_Arm_L
+  - first:
+      74: 4500633118988444471
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: 510267578795500476
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: -498261403496774036
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: 8312712526720108391
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: 5020697931159168930
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: 7404130079528879161
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: 1918769247098927915
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: 695055150850913158
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: -984107500379940641
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: 9212456665010046106
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: 6012490471078685207
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: -8759572865862219008
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: -4817955002472594615
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: 4587230115695626558
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: -563965305556687907
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: -1047612149293613137
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: -465902794227704138
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: 8725760350309389933
+    second: Die //// Bone_Arm_R
+  - first:
+      74: -3359457128618343027
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: 1588118876356421663
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: -624278780079728841
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: -5734157671017032478
+    second: Land //// Bone_Arm_R
+  - first:
+      74: 4704504235688768518
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: 1372927813531120769
+    second: Run //// Bone_Arm_R
+  - first:
+      74: 5839978264127450267
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: 6179586589740282700
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: 1073626250786594002
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: -3216224623935849315
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: 848288922800549869
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: 1684507305586668103
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -2409153646135759547
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: 7690026730293595623
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: 2754982238845859566
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: 5891277942194789715
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -6523806370905681509
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: 2344334812008865333
+    second: Run //// Bone_Leg_L
+  - first:
+      74: -3795032394163324439
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: -5720152310612103419
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: -485323199461606496
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: -8530325826326814081
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: 8318671484719708583
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: 7513740404134931479
+    second: Die //// Bone_Foot_L
+  - first:
+      74: 8394498632169104932
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: 5703909552460107330
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: 7151904412201515941
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: -2657503427201346962
+    second: Land //// Bone_Foot_L
+  - first:
+      74: -5992489275069546299
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: -4949209243495255248
+    second: Run //// Bone_Foot_L
+  - first:
+      74: -8838006498886296200
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: 5814353093507897996
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: 2171248071132299345
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: -8835007096850355240
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: 4283951948467703626
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: -451064423996363425
+    second: Die //// Bone_Leg_R
+  - first:
+      74: 900680474228283781
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: 8636899086983612853
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: 526081533991981019
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: -3771154184167556814
+    second: Land //// Bone_Leg_R
+  - first:
+      74: 4179452247524147975
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: -8971335799059355507
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -2949951816464002868
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: 988868463409496586
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: -1737889783628292055
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: 2089203757736765110
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: 1122970984636346475
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: 3107748309739014760
+    second: Die //// Bone_Foot_R
+  - first:
+      74: 4558206802078808029
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: -3557400233464692109
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: -8247191463692159876
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: -3275066079390261762
+    second: Land //// Bone_Foot_R
+  - first:
+      74: -6435814291545473780
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: 2866010087051579326
+    second: Run //// Bone_Foot_R
+  - first:
+      74: 3274069124163827223
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: 1211275316942926114
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: -1038746403933519681
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: 6730033209092555935
+    second: Swing //// Bone_Body
+  - first:
+      74: -5809402727467624114
+    second: Shot //// Bone_Body
+  - first:
+      74: 694575377600785384
+    second: Die //// Bone_Body
+  - first:
+      74: -2605092496703060197
+    second: Dodge //// Bone_Body
+  - first:
+      74: 7083804326313794067
+    second: Idle //// Bone_Body
+  - first:
+      74: -2233551887093071519
+    second: Jump //// Bone_Body
+  - first:
+      74: 8827278806482120034
+    second: Land //// Bone_Body
+  - first:
+      74: -3940847162302214816
+    second: Reload //// Bone_Body
+  - first:
+      74: 5629948111805913394
+    second: Run //// Bone_Body
+  - first:
+      74: 8987905945012760664
+    second: Swap //// Bone_Body
+  - first:
+      74: 3700445384523131939
+    second: Throw //// Bone_Body
+  - first:
+      74: 1009720783771516587
+    second: Walk //// Bone_Body
+  - first:
+      74: -5250157109287413366
+    second: Swing //// Bone_Neck
+  - first:
+      74: -2833364325558532348
+    second: Shot //// Bone_Neck
+  - first:
+      74: -4295386967003404628
+    second: Die //// Bone_Neck
+  - first:
+      74: 5114391716413745765
+    second: Dodge //// Bone_Neck
+  - first:
+      74: -3140973956415516073
+    second: Idle //// Bone_Neck
+  - first:
+      74: -4844643964108043766
+    second: Jump //// Bone_Neck
+  - first:
+      74: 3860894056807508371
+    second: Land //// Bone_Neck
+  - first:
+      74: -7008881246110241307
+    second: Reload //// Bone_Neck
+  - first:
+      74: -4581492649952236591
+    second: Run //// Bone_Neck
+  - first:
+      74: 2422057435322306707
+    second: Swap //// Bone_Neck
+  - first:
+      74: 8444914064749434272
+    second: Throw //// Bone_Neck
+  - first:
+      74: -3027276929018812096
+    second: Walk //// Bone_Neck
+  - first:
+      74: 5933431188559538690
+    second: Swing //// Bone_Head
+  - first:
+      74: 4044394360792157202
+    second: Shot //// Bone_Head
+  - first:
+      74: -890476663125652778
+    second: Die //// Bone_Head
+  - first:
+      74: -1972234105093991422
+    second: Dodge //// Bone_Head
+  - first:
+      74: 2738367842748561376
+    second: Idle //// Bone_Head
+  - first:
+      74: 2693020196881729967
+    second: Jump //// Bone_Head
+  - first:
+      74: -7280904893200007786
+    second: Land //// Bone_Head
+  - first:
+      74: 3757202663792722961
+    second: Reload //// Bone_Head
+  - first:
+      74: -8046921145193039448
+    second: Run //// Bone_Head
+  - first:
+      74: 1321651789444346590
+    second: Swap //// Bone_Head
+  - first:
+      74: -6979739920863667586
+    second: Throw //// Bone_Head
+  - first:
+      74: 4826722032716099215
+    second: Walk //// Bone_Head
+  - first:
+      74: 5289904372228133319
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: 4735251837143206373
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: -465467861604036300
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: 8934606321654727149
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: 6869755074875867789
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: -89566966752473592
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: 2741960871429047116
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: 9201637972932951340
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: 5465449181944870088
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: -8249995733792529206
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: -6400091876770932056
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: -5756328965305225820
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: -6894412570705032039
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: -6708447420634385378
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: -8658709746742066828
+    second: Die //// Bone_Arm_L
+  - first:
+      74: -7904373824710955859
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: 1412193699287368009
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: 7340918952811814651
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: 5749233768934476528
+    second: Land //// Bone_Arm_L
+  - first:
+      74: 7976463518233601168
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: -8389936736260628381
+    second: Run //// Bone_Arm_L
+  - first:
+      74: -4842610424809673466
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: -2086030964174040515
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: -8509588138804332553
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: -4016662674204409512
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: 1291543198845008168
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: 3944064978012064700
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: 6469372817207633175
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: -6835977041079197443
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: -5455910597083844608
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: -8378898239592714409
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: 3940420164253806799
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: -2498286109007901970
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: -182755921661544169
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: 8653914447208041958
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: 1343230799807768216
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: 2578576560732755933
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: -5072424714966190753
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -7392695896575017603
+    second: Die //// Bone_Arm_R
+  - first:
+      74: -2424187250425685650
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: -4798027954935605238
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: -575969959930129972
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: -7408368945912042718
+    second: Land //// Bone_Arm_R
+  - first:
+      74: 6313345946348258119
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: -1295587969616625075
+    second: Run //// Bone_Arm_R
+  - first:
+      74: -3688444415548025769
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: 2189072369435118400
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: 8102208377982709485
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: 5280150237472167416
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: 2914407924212776647
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: 5259735137881990983
+    second: Die //// Bone_Leg_L
+  - first:
+      74: 7125639887627062424
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: -6557521089525257587
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: -5532618416464946075
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: 1631770243117957889
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -226297284496066226
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: 4488280416361300306
+    second: Run //// Bone_Leg_L
+  - first:
+      74: -2557370797127864589
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: -3345175383683857062
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: -3097192927923250254
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: 7808409483734936239
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: 6703387639651191772
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: -1095045992227246906
+    second: Die //// Bone_Foot_L
+  - first:
+      74: -219865340223190314
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: -7519177697567036993
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: -7390773122120133523
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: 1722973360510076656
+    second: Land //// Bone_Foot_L
+  - first:
+      74: 8575485283090689426
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: 8443733120647494884
+    second: Run //// Bone_Foot_L
+  - first:
+      74: -1431633867075011354
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: 3568303604700353156
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: 331620763631877368
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: -819322474458293390
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: 3843232609265613268
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: -9169229683020106127
+    second: Die //// Bone_Leg_R
+  - first:
+      74: -3716652354479846771
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: 2694445597982472542
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: -2470229928535785632
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: -5025918978467392172
+    second: Land //// Bone_Leg_R
+  - first:
+      74: 6092751563853247163
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: -8469133762090701968
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -500763748972868171
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: -2991991088986587357
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: 3330813607244483400
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: -2348729116588546999
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: 4507627509368618164
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: -8528230190017917920
+    second: Die //// Bone_Foot_R
+  - first:
+      74: 3604257532694350365
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: 6456608579416267944
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: 2241217848698332762
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: -321502549144406997
+    second: Land //// Bone_Foot_R
+  - first:
+      74: -4459082831625006452
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: 925090385178705788
+    second: Run //// Bone_Foot_R
+  - first:
+      74: 5018498817812960849
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: -500439401316467076
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: -9192471808715314719
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: -7146734895227596974
+    second: Swing //// Bone_Body
+  - first:
+      74: -385833916636962747
+    second: Shot //// Bone_Body
+  - first:
+      74: -8502509933834670324
+    second: Die //// Bone_Body
+  - first:
+      74: 4757515593880501976
+    second: Dodge //// Bone_Body
+  - first:
+      74: -507854665908843789
+    second: Idle //// Bone_Body
+  - first:
+      74: -4685945374756844127
+    second: Jump //// Bone_Body
+  - first:
+      74: 6036468765422316208
+    second: Land //// Bone_Body
+  - first:
+      74: -4149151272555488430
+    second: Reload //// Bone_Body
+  - first:
+      74: 2780451104480384442
+    second: Run //// Bone_Body
+  - first:
+      74: 2533518281316735514
+    second: Swap //// Bone_Body
+  - first:
+      74: 1404257428018957695
+    second: Throw //// Bone_Body
+  - first:
+      74: 788032522059848060
+    second: Walk //// Bone_Body
+  - first:
+      74: 416106839805880922
+    second: Swing //// Bone_Neck
+  - first:
+      74: 4618276892440223978
+    second: Shot //// Bone_Neck
+  - first:
+      74: -8912742152133192811
+    second: Die //// Bone_Neck
+  - first:
+      74: -2027327642096592384
+    second: Dodge //// Bone_Neck
+  - first:
+      74: 4179547059238522652
+    second: Idle //// Bone_Neck
+  - first:
+      74: 3983753557490436647
+    second: Jump //// Bone_Neck
+  - first:
+      74: 6335829294776714701
+    second: Land //// Bone_Neck
+  - first:
+      74: 8471572080410367559
+    second: Reload //// Bone_Neck
+  - first:
+      74: -6174478002494145904
+    second: Run //// Bone_Neck
+  - first:
+      74: 1895284259168270974
+    second: Swap //// Bone_Neck
+  - first:
+      74: -2125358298218924863
+    second: Throw //// Bone_Neck
+  - first:
+      74: 3090840892889498583
+    second: Walk //// Bone_Neck
+  - first:
+      74: 4335045978264039225
+    second: Swing //// Bone_Head
+  - first:
+      74: -2185908744526078840
+    second: Shot //// Bone_Head
+  - first:
+      74: -4351509666843322501
+    second: Die //// Bone_Head
+  - first:
+      74: 8447491722783027989
+    second: Dodge //// Bone_Head
+  - first:
+      74: -7034195519888338389
+    second: Idle //// Bone_Head
+  - first:
+      74: -3417453945356214362
+    second: Jump //// Bone_Head
+  - first:
+      74: 5364215233228211807
+    second: Land //// Bone_Head
+  - first:
+      74: -7162858632036449051
+    second: Reload //// Bone_Head
+  - first:
+      74: -6495032420371400832
+    second: Run //// Bone_Head
+  - first:
+      74: 4074248952491235757
+    second: Swap //// Bone_Head
+  - first:
+      74: -1167850815918593360
+    second: Throw //// Bone_Head
+  - first:
+      74: 877820649538492569
+    second: Walk //// Bone_Head
+  - first:
+      74: 6778426938969876393
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: 138012255596349717
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: -1038129368527651134
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -631913868685215092
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: 3054101207907998522
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: 5914718760137178791
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: 7319390356009794442
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: 4203519286046371500
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: -4711850430345835582
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: -4243210732064576207
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: 4719678165379165265
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: 1537279613255160915
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: -2893076835128478249
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: 5539544737348413355
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: 5718653830610647336
+    second: Die //// Bone_Arm_L
+  - first:
+      74: 5851349629351430766
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: -2716093379026487604
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: 6768139850496750345
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: -3000341577371493211
+    second: Land //// Bone_Arm_L
+  - first:
+      74: -2708150080624152900
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: 552619008669896141
+    second: Run //// Bone_Arm_L
+  - first:
+      74: -5768373963149556834
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: 7428015485879887486
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: -8947899153007276578
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: 9053455462111562556
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: 7523150961740102973
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: -8686898763408815170
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: 8627028980407561865
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: 8676138797889531865
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: -5815857774743801628
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: 44641127813508138
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: 691590769365105723
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: -1542003741036977769
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: -1061840092126136506
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: 6679148728157458603
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: 9204095600179686459
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: -182551559427580436
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: -4436726178203835585
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: 4356969756402094162
+    second: Die //// Bone_Arm_R
+  - first:
+      74: 678288618042545926
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: -2675444770538323779
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: 8215247164944372494
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: 5605284456252537489
+    second: Land //// Bone_Arm_R
+  - first:
+      74: -1414989162945620006
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: 5093462056608496340
+    second: Run //// Bone_Arm_R
+  - first:
+      74: -6151423328454267075
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: 3851685716150660791
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: -3403409307731559366
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: -4008076395950871158
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: -1368164348983807855
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: 2505443420925675159
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -20365057230309505
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: 1034703196394495234
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: 7310520628382788107
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: 7336581058018304508
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -1778453996489789261
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: 4105240124995453859
+    second: Run //// Bone_Leg_L
+  - first:
+      74: 5122786101536427817
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: 2904155759212964021
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: -6968296313881884485
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: 2477138148633390492
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: 1219355428048298468
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: 6407170357582616653
+    second: Die //// Bone_Foot_L
+  - first:
+      74: -7472468471874724255
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: -3002995955069756910
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: 3579938476054225934
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: 3184000278568932915
+    second: Land //// Bone_Foot_L
+  - first:
+      74: -5279553944303642088
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: 5715023538863591262
+    second: Run //// Bone_Foot_L
+  - first:
+      74: 4753567145115030474
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: -7598086505525796767
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: 5297480037886890983
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: 1332614194898439153
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: 4973616283782437678
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: 4832401210528853442
+    second: Die //// Bone_Leg_R
+  - first:
+      74: 3168366787072556526
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: 1101363412760473213
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: 368189061988176070
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: 367658296925206192
+    second: Land //// Bone_Leg_R
+  - first:
+      74: 4515228445798829508
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: -7128970596572200586
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -6217595647750640039
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: 7934855611828394209
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: 4444217563358550450
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: -732747306185807477
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: -1747730952348573343
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: -5213686935089935062
+    second: Die //// Bone_Foot_R
+  - first:
+      74: -3033629239075814201
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: -5375937639380378448
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: -5573358083126569931
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: -586257734072170890
+    second: Land //// Bone_Foot_R
+  - first:
+      74: 5729964950771715283
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: -919507597319536426
+    second: Run //// Bone_Foot_R
+  - first:
+      74: 3973694954739878081
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: 5716228392266258839
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: 4426616612227986240
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: -2737243242847820238
+    second: Swing //// Bone_Body
+  - first:
+      74: -4302385308717799845
+    second: Shot //// Bone_Body
+  - first:
+      74: 6317165287087909826
+    second: Die //// Bone_Body
+  - first:
+      74: -5084605148144833639
+    second: Dodge //// Bone_Body
+  - first:
+      74: -7663320314265364776
+    second: Idle //// Bone_Body
+  - first:
+      74: 8672261410034882140
+    second: Jump //// Bone_Body
+  - first:
+      74: 3997398433782525052
+    second: Land //// Bone_Body
+  - first:
+      74: 3733207164135888907
+    second: Reload //// Bone_Body
+  - first:
+      74: -5965166945027341953
+    second: Run //// Bone_Body
+  - first:
+      74: -5314527688729605472
+    second: Swap //// Bone_Body
+  - first:
+      74: 5436856054367732197
+    second: Throw //// Bone_Body
+  - first:
+      74: 5727062405167811701
+    second: Walk //// Bone_Body
+  - first:
+      74: -3758349222532173795
+    second: Swing //// Bone_Neck
+  - first:
+      74: 4367794759830319468
+    second: Shot //// Bone_Neck
+  - first:
+      74: -9045773853113399436
+    second: Die //// Bone_Neck
+  - first:
+      74: -9203961853341118174
+    second: Dodge //// Bone_Neck
+  - first:
+      74: -313630245914589037
+    second: Idle //// Bone_Neck
+  - first:
+      74: -7622398746044429614
+    second: Jump //// Bone_Neck
+  - first:
+      74: 1412395120687859200
+    second: Land //// Bone_Neck
+  - first:
+      74: 6478384669817172966
+    second: Reload //// Bone_Neck
+  - first:
+      74: -4266639416543358166
+    second: Run //// Bone_Neck
+  - first:
+      74: 6364997633685018899
+    second: Swap //// Bone_Neck
+  - first:
+      74: 6474128516243437122
+    second: Throw //// Bone_Neck
+  - first:
+      74: 9166396330096649398
+    second: Walk //// Bone_Neck
+  - first:
+      74: 5653925321927557831
+    second: Swing //// Bone_Head
+  - first:
+      74: 6330858383590221873
+    second: Shot //// Bone_Head
+  - first:
+      74: 1974296221478471445
+    second: Die //// Bone_Head
+  - first:
+      74: 5853828529827519501
+    second: Dodge //// Bone_Head
+  - first:
+      74: 2502194321821033517
+    second: Idle //// Bone_Head
+  - first:
+      74: -7568913740717843857
+    second: Jump //// Bone_Head
+  - first:
+      74: 5337633161362448161
+    second: Land //// Bone_Head
+  - first:
+      74: -1262510818169357664
+    second: Reload //// Bone_Head
+  - first:
+      74: 9000855297644435478
+    second: Run //// Bone_Head
+  - first:
+      74: -8235158141370953270
+    second: Swap //// Bone_Head
+  - first:
+      74: 5584009866374793781
+    second: Throw //// Bone_Head
+  - first:
+      74: -797419200036265458
+    second: Walk //// Bone_Head
+  - first:
+      74: 4823845623428329003
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: 7581550901037582792
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: 4087094793491665810
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -8403040418705475244
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: -1975477944241502766
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: -7905053442470851797
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: -7534299369735426877
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: -4452786676834889993
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: 4318268127053412983
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: -8683785511459650953
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: -6516235943678980269
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: 4510996112982329436
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: 5937854101676251121
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: 2097303516380035408
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: -156222650311687140
+    second: Die //// Bone_Arm_L
+  - first:
+      74: 7831574525141086034
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: 8446509055713407567
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: -283967547751260992
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: 4174974531348017222
+    second: Land //// Bone_Arm_L
+  - first:
+      74: -1352004835609961790
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: 7081962627290478269
+    second: Run //// Bone_Arm_L
+  - first:
+      74: 7475212502912923493
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: -5311563335963017856
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: 1496322213336692887
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: 6347592588155607604
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: 5483146211983989846
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: 2087838198853530616
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: -3523021931701779644
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: 9069458820053458359
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: 2068410923177791659
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: 7378780298127802611
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: -7095583832149529963
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: -6295143416414703642
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: 7740837475564194628
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: -6247286562698725397
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: -5571341117464817985
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: -4128097517521931877
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: 333766202545347639
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -1241602647561345882
+    second: Die //// Bone_Arm_R
+  - first:
+      74: -1999978141418923872
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: -6151546387488005242
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: 5966028024822646086
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: 5072387621770347737
+    second: Land //// Bone_Arm_R
+  - first:
+      74: -540570223548374621
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: -1123991267327381610
+    second: Run //// Bone_Arm_R
+  - first:
+      74: -5565994621000986166
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: 955696712644931061
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: -2874577794932883346
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: -2202534352598079458
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: 2809814859994484507
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: -5844844847499187236
+    second: Die //// Bone_Leg_L
+  - first:
+      74: 2162391279260080128
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: -1782677549253728128
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: -4905144519241514962
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: 6037861678972824008
+    second: Land //// Bone_Leg_L
+  - first:
+      74: 8551533802019411691
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: -2850653530806005074
+    second: Run //// Bone_Leg_L
+  - first:
+      74: 4577138796623800989
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: -2015128953155309303
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: 919157150988716953
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: -5931375457777566204
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: -3302112716596525825
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: -8074623378014633051
+    second: Die //// Bone_Foot_L
+  - first:
+      74: 3608172234518777661
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: 6505796614297889125
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: -531067045866908235
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: 923633781309845394
+    second: Land //// Bone_Foot_L
+  - first:
+      74: -2914557051672529364
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: 992806036042593337
+    second: Run //// Bone_Foot_L
+  - first:
+      74: -781262935855542785
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: -8958867773455378031
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: 4072728423848591800
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: -7414815551181112934
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: 6481986431296451288
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: 4434385842485361267
+    second: Die //// Bone_Leg_R
+  - first:
+      74: 2663656100660358321
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: 3354216820813264975
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: 1834936150364429520
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: -8265173456749248923
+    second: Land //// Bone_Leg_R
+  - first:
+      74: -47868975838343546
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: 2068293544608933101
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -5825885143060571459
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: 1648973524112638872
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: 8742077218547176382
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: 3782019459631074034
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: -7251978974437365725
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: -9091485670388533074
+    second: Die //// Bone_Foot_R
+  - first:
+      74: -1276200120241484331
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: -1247952748488842118
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: 5910167860511067877
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: -7062911359730466368
+    second: Land //// Bone_Foot_R
+  - first:
+      74: 3580118836772848848
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: 7055075937124322866
+    second: Run //// Bone_Foot_R
+  - first:
+      74: -3877069204889346203
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: 6247131612510773982
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: -73234118254441654
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: 1015163561141316115
+    second: Swing //// Bone_Body
+  - first:
+      74: -9096246450635889407
+    second: Shot //// Bone_Body
+  - first:
+      74: -4436613815919608599
+    second: Die //// Bone_Body
+  - first:
+      74: 5984206599673587682
+    second: Dodge //// Bone_Body
+  - first:
+      74: 2129749048876100430
+    second: Idle //// Bone_Body
+  - first:
+      74: 1203092873644960030
+    second: Jump //// Bone_Body
+  - first:
+      74: 5211885760863938569
+    second: Land //// Bone_Body
+  - first:
+      74: 1915278436566654292
+    second: Reload //// Bone_Body
+  - first:
+      74: -4224681913837855445
+    second: Run //// Bone_Body
+  - first:
+      74: -133403744678882506
+    second: Swap //// Bone_Body
+  - first:
+      74: -6353233112378326184
+    second: Throw //// Bone_Body
+  - first:
+      74: 5527901642898792687
+    second: Walk //// Bone_Body
+  - first:
+      74: 1601711132123006444
+    second: Swing //// Bone_Neck
+  - first:
+      74: 5375553160759269164
+    second: Shot //// Bone_Neck
+  - first:
+      74: 4934785422017256179
+    second: Die //// Bone_Neck
+  - first:
+      74: 3599824459641070189
+    second: Dodge //// Bone_Neck
+  - first:
+      74: 8178059729476764202
+    second: Idle //// Bone_Neck
+  - first:
+      74: -2163763490313938173
+    second: Jump //// Bone_Neck
+  - first:
+      74: 8527291198115590409
+    second: Land //// Bone_Neck
+  - first:
+      74: -7756521564639972919
+    second: Reload //// Bone_Neck
+  - first:
+      74: -8713914088108568995
+    second: Run //// Bone_Neck
+  - first:
+      74: 6418215636951282617
+    second: Swap //// Bone_Neck
+  - first:
+      74: -4424771306181567110
+    second: Throw //// Bone_Neck
+  - first:
+      74: 8802693347020612829
+    second: Walk //// Bone_Neck
+  - first:
+      74: 5080234110824881506
+    second: Swing //// Bone_Head
+  - first:
+      74: -4584556974560081279
+    second: Shot //// Bone_Head
+  - first:
+      74: -1131704311132114467
+    second: Die //// Bone_Head
+  - first:
+      74: 698644285369073267
+    second: Dodge //// Bone_Head
+  - first:
+      74: -1900353922256733991
+    second: Idle //// Bone_Head
+  - first:
+      74: -1372255647179001668
+    second: Jump //// Bone_Head
+  - first:
+      74: -3374283584993482786
+    second: Land //// Bone_Head
+  - first:
+      74: -3183756901363835974
+    second: Reload //// Bone_Head
+  - first:
+      74: 8200183539933212858
+    second: Run //// Bone_Head
+  - first:
+      74: 1387925936065561856
+    second: Swap //// Bone_Head
+  - first:
+      74: 8805200832962755930
+    second: Throw //// Bone_Head
+  - first:
+      74: 2694876212300730814
+    second: Walk //// Bone_Head
+  - first:
+      74: -4755828020742719147
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: 7117739279515352093
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: -1987872002889340880
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: 3309638460972328391
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: -3408133964604845524
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: 7946240744272369386
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: -3423615393744787421
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: -5871567711379158025
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: -3341624638994852000
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: 4077949301702052780
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: 2002172150414795439
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: 7243371805239826524
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: 5259394799252774228
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: 8169562115947803043
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: 9055266461063290711
+    second: Die //// Bone_Arm_L
+  - first:
+      74: 2737577132551357041
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: 6938762541356430382
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: -2187733681338149082
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: 666783400240862190
+    second: Land //// Bone_Arm_L
+  - first:
+      74: -7358950326310320609
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: 3600132848907939216
+    second: Run //// Bone_Arm_L
+  - first:
+      74: -2483109793939866859
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: 6773782758097840947
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: 132500247212829158
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: -1580566482901987851
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: -2586157624556457681
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: 7774107829572401796
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: 2941087604236244723
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: 1778489601602968302
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: 3449477156049152351
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: 8307081581744243786
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: 4373435130942935044
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: 6801204942341728564
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: -8530030678785424358
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: -3473499072713371325
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: -9157035856388353779
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: -1080409498790617746
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: -9109990438483850692
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -7560907626027272671
+    second: Die //// Bone_Arm_R
+  - first:
+      74: -7928392146572113973
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: 6312430573064430266
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: -3886389104422931561
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: 2942539730151126847
+    second: Land //// Bone_Arm_R
+  - first:
+      74: 8275027716494823746
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: 6317549704333428099
+    second: Run //// Bone_Arm_R
+  - first:
+      74: 690342991251534533
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: -7417087973844495642
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: 884406093768681640
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: -1380043009750170266
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: -8756690099995276459
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: -7557392299736538724
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -5657019556542280043
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: -1376392202243686062
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: 4911210382294030448
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: -3964243910393250880
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -7398973603226436704
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: 4418235826922467142
+    second: Run //// Bone_Leg_L
+  - first:
+      74: -7421268608894109730
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: 392943768345780123
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: 176118314158360611
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: -7373018250339780173
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: -1368734576599238687
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: 2420269446784006289
+    second: Die //// Bone_Foot_L
+  - first:
+      74: -5366311913738817014
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: 6227406848459769853
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: -3377615843532259225
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: -363287640465632555
+    second: Land //// Bone_Foot_L
+  - first:
+      74: 1600793597161314234
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: -2118118255241684619
+    second: Run //// Bone_Foot_L
+  - first:
+      74: 8859426045763371868
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: -159609431914739848
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: 5371438421729537379
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: -505162539609193088
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: -8287181699182462534
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: -2033608100349066450
+    second: Die //// Bone_Leg_R
+  - first:
+      74: -1688027880227812430
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: -6815600893502047187
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: -8608833826454359642
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: 1774849200700000100
+    second: Land //// Bone_Leg_R
+  - first:
+      74: -2056104588385836914
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: -699223835843867335
+    second: Run //// Bone_Leg_R
+  - first:
+      74: 2092440587020899104
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: -3899169911554917933
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: 7960301935652524719
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: 8138594178443667943
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: 9174709355083907006
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: -1063766709572000139
+    second: Die //// Bone_Foot_R
+  - first:
+      74: 8651221586771789630
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: -7287914175328513303
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: 6516738931764852761
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: 1398087660554246774
+    second: Land //// Bone_Foot_R
+  - first:
+      74: 6381117631694394546
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: -7764391376207166937
+    second: Run //// Bone_Foot_R
+  - first:
+      74: 2341588832199808522
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: 1532756904207034887
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: 1979355785293595753
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: -332112254579654487
+    second: Swing //// Bone_Body
+  - first:
+      74: -5782262292122317573
+    second: Shot //// Bone_Body
+  - first:
+      74: 82664927886520518
+    second: Die //// Bone_Body
+  - first:
+      74: -3558279195343947365
+    second: Dodge //// Bone_Body
+  - first:
+      74: -4055178532267321012
+    second: Idle //// Bone_Body
+  - first:
+      74: -8667508172697922256
+    second: Jump //// Bone_Body
+  - first:
+      74: -927848222191121542
+    second: Land //// Bone_Body
+  - first:
+      74: -8730243916452773669
+    second: Reload //// Bone_Body
+  - first:
+      74: 3526861985283248068
+    second: Run //// Bone_Body
+  - first:
+      74: 7039657236082839779
+    second: Swap //// Bone_Body
+  - first:
+      74: 7687904842528264442
+    second: Throw //// Bone_Body
+  - first:
+      74: 8779087782228613897
+    second: Walk //// Bone_Body
+  - first:
+      74: 4819721877264046510
+    second: Swing //// Bone_Neck
+  - first:
+      74: 2173101108130981441
+    second: Shot //// Bone_Neck
+  - first:
+      74: -7280126172296414553
+    second: Die //// Bone_Neck
+  - first:
+      74: -8294248027109057871
+    second: Dodge //// Bone_Neck
+  - first:
+      74: 6143938544344486363
+    second: Idle //// Bone_Neck
+  - first:
+      74: 8290224389565954729
+    second: Jump //// Bone_Neck
+  - first:
+      74: -2727018552871525569
+    second: Land //// Bone_Neck
+  - first:
+      74: -1684054101128298517
+    second: Reload //// Bone_Neck
+  - first:
+      74: 7878724045526074111
+    second: Run //// Bone_Neck
+  - first:
+      74: -716559498919253173
+    second: Swap //// Bone_Neck
+  - first:
+      74: -7918621048212598054
+    second: Throw //// Bone_Neck
+  - first:
+      74: -4612192719080497233
+    second: Walk //// Bone_Neck
+  - first:
+      74: 2031971876955347935
+    second: Swing //// Bone_Head
+  - first:
+      74: 9206334566410277763
+    second: Shot //// Bone_Head
+  - first:
+      74: 8112434622816916746
+    second: Die //// Bone_Head
+  - first:
+      74: -4149257440768750182
+    second: Dodge //// Bone_Head
+  - first:
+      74: 5557100114936199722
+    second: Idle //// Bone_Head
+  - first:
+      74: 901780086498973802
+    second: Jump //// Bone_Head
+  - first:
+      74: -4958771222649115571
+    second: Land //// Bone_Head
+  - first:
+      74: -5361909486848077812
+    second: Reload //// Bone_Head
+  - first:
+      74: 1500768668773404616
+    second: Run //// Bone_Head
+  - first:
+      74: -162712704280672510
+    second: Swap //// Bone_Head
+  - first:
+      74: -6786340397272824382
+    second: Throw //// Bone_Head
+  - first:
+      74: 4622898532238295008
+    second: Walk //// Bone_Head
+  - first:
+      74: -3932271689271395803
+    second: Swing //// Bone_Shoulder_L
+  - first:
+      74: 8718090120749455210
+    second: Shot //// Bone_Shoulder_L
+  - first:
+      74: 7331657447578889017
+    second: Die //// Bone_Shoulder_L
+  - first:
+      74: -6591111110888617704
+    second: Dodge //// Bone_Shoulder_L
+  - first:
+      74: 6598411960903216165
+    second: Idle //// Bone_Shoulder_L
+  - first:
+      74: 5089599177883665755
+    second: Jump //// Bone_Shoulder_L
+  - first:
+      74: 4119450729403532880
+    second: Land //// Bone_Shoulder_L
+  - first:
+      74: 2906852467536626270
+    second: Reload //// Bone_Shoulder_L
+  - first:
+      74: -7467561984240630296
+    second: Run //// Bone_Shoulder_L
+  - first:
+      74: 7329285429102496300
+    second: Swap //// Bone_Shoulder_L
+  - first:
+      74: 6258005270011275455
+    second: Throw //// Bone_Shoulder_L
+  - first:
+      74: 5939059767411084375
+    second: Walk //// Bone_Shoulder_L
+  - first:
+      74: 1889278388384561339
+    second: Swing //// Bone_Arm_L
+  - first:
+      74: 2106879147463288833
+    second: Shot //// Bone_Arm_L
+  - first:
+      74: -2398045848055203863
+    second: Die //// Bone_Arm_L
+  - first:
+      74: 6528038563945765234
+    second: Dodge //// Bone_Arm_L
+  - first:
+      74: 6075322928993299269
+    second: Idle //// Bone_Arm_L
+  - first:
+      74: -4899006052428109944
+    second: Jump //// Bone_Arm_L
+  - first:
+      74: 2984514065393017772
+    second: Land //// Bone_Arm_L
+  - first:
+      74: 2600358802455442908
+    second: Reload //// Bone_Arm_L
+  - first:
+      74: 7449857014772688978
+    second: Run //// Bone_Arm_L
+  - first:
+      74: -2080225296287121542
+    second: Swap //// Bone_Arm_L
+  - first:
+      74: -6584708231661236301
+    second: Throw //// Bone_Arm_L
+  - first:
+      74: -1517473752372597835
+    second: Walk //// Bone_Arm_L
+  - first:
+      74: -8488841349137596292
+    second: Swing //// Bone_Shoulder_R
+  - first:
+      74: -7620419505991665047
+    second: Shot //// Bone_Shoulder_R
+  - first:
+      74: -8929886983956136704
+    second: Die //// Bone_Shoulder_R
+  - first:
+      74: 5764090390854097658
+    second: Dodge //// Bone_Shoulder_R
+  - first:
+      74: 8105857452905432517
+    second: Idle //// Bone_Shoulder_R
+  - first:
+      74: 2237123287784499058
+    second: Jump //// Bone_Shoulder_R
+  - first:
+      74: -5143416402376035498
+    second: Land //// Bone_Shoulder_R
+  - first:
+      74: -8525427767198805185
+    second: Reload //// Bone_Shoulder_R
+  - first:
+      74: 4419709519573270731
+    second: Run //// Bone_Shoulder_R
+  - first:
+      74: -8931838320114752152
+    second: Swap //// Bone_Shoulder_R
+  - first:
+      74: 6346512715590545304
+    second: Throw //// Bone_Shoulder_R
+  - first:
+      74: -5748620239634164324
+    second: Walk //// Bone_Shoulder_R
+  - first:
+      74: -8819383280550601306
+    second: Swing //// Bone_Arm_R
+  - first:
+      74: -5802750847434168287
+    second: Shot //// Bone_Arm_R
+  - first:
+      74: -6455666779975278603
+    second: Die //// Bone_Arm_R
+  - first:
+      74: -4362614802452106721
+    second: Dodge //// Bone_Arm_R
+  - first:
+      74: -7172541026983571906
+    second: Idle //// Bone_Arm_R
+  - first:
+      74: 7336927206335813135
+    second: Jump //// Bone_Arm_R
+  - first:
+      74: 8951011206449185457
+    second: Land //// Bone_Arm_R
+  - first:
+      74: -795590892503624508
+    second: Reload //// Bone_Arm_R
+  - first:
+      74: -4530273246033036531
+    second: Run //// Bone_Arm_R
+  - first:
+      74: 2474265209883802558
+    second: Swap //// Bone_Arm_R
+  - first:
+      74: -6798658829619009014
+    second: Throw //// Bone_Arm_R
+  - first:
+      74: 7039631947768504229
+    second: Walk //// Bone_Arm_R
+  - first:
+      74: -8805088106143957222
+    second: Swing //// Bone_Leg_L
+  - first:
+      74: -188573866701949671
+    second: Shot //// Bone_Leg_L
+  - first:
+      74: 5453375139552845378
+    second: Die //// Bone_Leg_L
+  - first:
+      74: -2149603473262824826
+    second: Dodge //// Bone_Leg_L
+  - first:
+      74: 8215236517565946876
+    second: Idle //// Bone_Leg_L
+  - first:
+      74: -5413026458500787872
+    second: Jump //// Bone_Leg_L
+  - first:
+      74: -8302099308120688822
+    second: Land //// Bone_Leg_L
+  - first:
+      74: -6732464543782176915
+    second: Reload //// Bone_Leg_L
+  - first:
+      74: 7738996886913077964
+    second: Run //// Bone_Leg_L
+  - first:
+      74: -4100809257668665727
+    second: Swap //// Bone_Leg_L
+  - first:
+      74: 7407336237028543876
+    second: Throw //// Bone_Leg_L
+  - first:
+      74: 2513362561323680727
+    second: Walk //// Bone_Leg_L
+  - first:
+      74: -1321304782613898618
+    second: Swing //// Bone_Foot_L
+  - first:
+      74: 7264204289865628089
+    second: Shot //// Bone_Foot_L
+  - first:
+      74: 7717169631621698129
+    second: Die //// Bone_Foot_L
+  - first:
+      74: -3758357560694481663
+    second: Dodge //// Bone_Foot_L
+  - first:
+      74: 4832735310359512131
+    second: Idle //// Bone_Foot_L
+  - first:
+      74: 203813009404721604
+    second: Jump //// Bone_Foot_L
+  - first:
+      74: -555029162187987525
+    second: Land //// Bone_Foot_L
+  - first:
+      74: 4070078464800933112
+    second: Reload //// Bone_Foot_L
+  - first:
+      74: -2500769894756851955
+    second: Run //// Bone_Foot_L
+  - first:
+      74: 5141446784372115473
+    second: Swap //// Bone_Foot_L
+  - first:
+      74: 283621023557385884
+    second: Throw //// Bone_Foot_L
+  - first:
+      74: 3690163992025744947
+    second: Walk //// Bone_Foot_L
+  - first:
+      74: 2378939062326667202
+    second: Swing //// Bone_Leg_R
+  - first:
+      74: 936318607251914605
+    second: Shot //// Bone_Leg_R
+  - first:
+      74: -3128254341185171929
+    second: Die //// Bone_Leg_R
+  - first:
+      74: 786360783674386259
+    second: Dodge //// Bone_Leg_R
+  - first:
+      74: -7689322956976716194
+    second: Idle //// Bone_Leg_R
+  - first:
+      74: 5697654571560893397
+    second: Jump //// Bone_Leg_R
+  - first:
+      74: 483126387022523494
+    second: Land //// Bone_Leg_R
+  - first:
+      74: -1544477877390563771
+    second: Reload //// Bone_Leg_R
+  - first:
+      74: -1450467963169671492
+    second: Run //// Bone_Leg_R
+  - first:
+      74: -1196275586981309926
+    second: Swap //// Bone_Leg_R
+  - first:
+      74: 7297393897713967576
+    second: Throw //// Bone_Leg_R
+  - first:
+      74: -2388403857041721127
+    second: Walk //// Bone_Leg_R
+  - first:
+      74: -1122571681177965924
+    second: Swing //// Bone_Foot_R
+  - first:
+      74: 3654456129990448968
+    second: Shot //// Bone_Foot_R
+  - first:
+      74: -5945454139926709343
+    second: Die //// Bone_Foot_R
+  - first:
+      74: 6313276574846120155
+    second: Dodge //// Bone_Foot_R
+  - first:
+      74: -6171261891801253043
+    second: Idle //// Bone_Foot_R
+  - first:
+      74: -6741528313280738683
+    second: Jump //// Bone_Foot_R
+  - first:
+      74: -5676144669894711643
+    second: Land //// Bone_Foot_R
+  - first:
+      74: 4254476552925408150
+    second: Reload //// Bone_Foot_R
+  - first:
+      74: -9172980108610744485
+    second: Run //// Bone_Foot_R
+  - first:
+      74: 1512153171720771848
+    second: Swap //// Bone_Foot_R
+  - first:
+      74: -505539957979202465
+    second: Throw //// Bone_Foot_R
+  - first:
+      74: 2682530965754618230
+    second: Walk //// Bone_Foot_R
+  - first:
+      74: -2459116968204564406
+    second: Armature|Attack B
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -52,7 +6103,7 @@ ModelImporter:
     materialSearch: 1
     materialLocation: 1
   animations:
-    legacyGenerateAnimations: 4
+    legacyGenerateAnimations: 3
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
@@ -65,7 +6116,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 1
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -439,6 +6490,7 @@ ModelImporter:
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
@@ -448,6 +6500,9 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
   tangentSpace:
@@ -481,6 +6536,7 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

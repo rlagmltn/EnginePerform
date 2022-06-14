@@ -6,10 +6,10 @@ public class PlayerRotate : MonoBehaviour
 {
     Camera cam;
     [SerializeField]
-    GameObject cube;
+    GameObject cursor;
 
     Vector3 mousePos = Vector3.zero;
-    Vector3 LookPos = Vector3.zero;
+    public Vector3 lookPos = Vector3.zero;
     private void Awake()
     {
         transform.rotation = Quaternion.identity;
@@ -18,10 +18,10 @@ public class PlayerRotate : MonoBehaviour
     void Update()
     {
         RayCastingMousePosition();
-        LookPos = new Vector3(mousePos.x, 4f, mousePos.z);
-        Debug.Log(LookPos);
-        transform.LookAt(LookPos);
-        cube.transform.position = LookPos;
+        lookPos = new Vector3(mousePos.x, 0.2f, mousePos.z);
+        Debug.Log(lookPos);
+        transform.LookAt(lookPos);
+        cursor.transform.position = lookPos;
     }
     void RayCastingMousePosition()
     {
@@ -30,7 +30,7 @@ public class PlayerRotate : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Ground")))
         {
-            Debug.DrawRay(ray.origin, ray.direction * 20, Color.red, 5f);
+            //Debug.DrawRay(ray.origin, ray.direction * 20, Color.red, 5f);
             mousePos = hit.point;
         }
     }
