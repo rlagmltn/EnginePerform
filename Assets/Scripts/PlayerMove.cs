@@ -10,13 +10,16 @@ public class PlayerMove : MonoBehaviour
     [SerializeField]
     GameObject cube;
 
-    bool isDodge;
+    bool isDodge = false;
     bool isWalk;
     bool dodgeAble = true;
+    private float movespeed = 15f;
 
-    WaitForSeconds waitDodge = new WaitForSeconds(0.3f);
+    WaitForSeconds waitDodge = new WaitForSeconds(1f);
+    WaitForSeconds waitDash = new WaitForSeconds(0.2f);
     Vector3 mousePos = Vector3.zero;
-    Vector3 LookPos = Vector3.zero;
+    Vector3 lookPos = Vector3.zero;
+    Vector3 moveDir = Vector3.zero;
     private void Awake()
     {
         rigid = GetComponent<Rigidbody>();
@@ -27,62 +30,54 @@ public class PlayerMove : MonoBehaviour
     {
         GetInput();
         Move();
+        Dodge();
     }
-    private float movespeed = 10f;
-    void Move()
-    {
-        #region Dodge
-        if (!dodgeAble)
-        {
-            rigid.velocity = Vector3.zero;
-            return;
-        }
-        if (isDodge)
-        {
-            Dodge();
-        }
-        #endregion
-        RayCastingMousePosition();
-
-        LookPos = new Vector3(mousePos.x + transform.position.x, 2f, mousePos.z + transform.position.z);
-        Debug.Log(LookPos);
-        transform.LookAt(LookPos);
-        cube.transform.position = LookPos;
-        Vector3 moveDir = GetInput();
-        rigid.velocity = moveDir;
-
-        ani.SetBool("isRun", moveDir != Vector3.zero);
-        //ani.SetBool("isWalk", isWalk);
-    }
-    Vector3 GetInput()
+    void GetInput()
     {
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
+        moveDir = new Vector3(x, 0f, z) * movespeed;
         isWalk = Input.GetButton("Walk");
-        isDodge = Input.GetButton("Dodge");
-
-        return new Vector3(x, 0f, z) * movespeed;
+        if (dodgeAble) isDodge = Input.GetButtonDown("Dodge");
+    }
+    void Move()
+    {
+        RayCastingMousePosition();
+        lookPos = new Vector3(mousePos.x, 2f, mousePos.z);
+        transform.LookAt(lookPos);
+        cube.transform.position = lookPos;
+        if (!isDodge) rigid.velocity = moveDir;
+        ani.SetBool("isRun", moveDir != Vector3.zero);
+        //ani.SetBool("isWalk", isWalk);
     }
     void RayCastingMousePosition()
     {
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, LayerMask.GetMask("Ground")))
         {
-            Debug.DrawRay(ray.origin, ray.direction * 20, Color.red, 5f);
             mousePos = hit.point;
         }
+        Debug.DrawRay(transform.position, (lookPos - transform.position).normalized * 50, Color.red);
     }
     void Dodge()
     {
-        StartCoroutine(DodgeMove());
+        if (isDodge && dodgeAble)
+        {
+            StartCoroutine(Dash());
+        }
     }
-    IEnumerator DodgeMove()
+    IEnumerator Dash()
     {
+        Debug.Log("Dodge!!");
         dodgeAble = false;
         ani.SetTrigger("Dodge");
-
+        Vector3 dashPos = new Vector3(lookPos.x - transform.position.x, 0f, lookPos.z - transform.position.x).normalized;
+        float dashSpeed = movespeed * 2f;
+        rigid.velocity = dashSpeed * dashPos;
+        yield return waitDash; // 0.4sec
+        isDodge = false;
+        rigid.velocity = Vector3.zero;
         yield return waitDodge;
         dodgeAble = true;
     }
