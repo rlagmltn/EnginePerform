@@ -19,7 +19,7 @@ public class PlayerRotate : MonoBehaviour
     {
         RayCastingMousePosition();
         lookPos = new Vector3(mousePos.x, 0.2f, mousePos.z);
-        Debug.Log(lookPos);
+        //Debug.Log(lookPos);
         transform.LookAt(lookPos);
         cursor.transform.position = lookPos;
     }
