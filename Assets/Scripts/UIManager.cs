@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -13,6 +14,11 @@ public class UIManager : MonoBehaviour
     bool isHelpTurn = false;
     bool istutotutoTurn = true;
     bool isMenuTurn = false;
+
+    [SerializeField]
+    Slider BGSoundSlider;
+    [SerializeField]
+    Slider EFSoundSlider;
 
     [SerializeField]
     private Transform MenuON;
@@ -52,16 +58,32 @@ public class UIManager : MonoBehaviour
         }
         if (Input.GetButtonDown("Cancel"))
         {
-            isMenuTurn = !isMenuTurn;
-            if (isMenuTurn)
-            {
-                Time.timeScale = 0f;
-            }
-            else
-            {
-                Time.timeScale = 1f;
-            }
-            MenuPanel.SetActive(isMenuTurn);
+            MenuTurn(ref isMenuTurn);
         }
+    }
+    void MenuTurn(ref bool _input)
+    {
+        _input = !_input;
+        if (_input)
+        {
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Time.timeScale = 1f;
+        }
+        MenuPanel.SetActive(_input);
+    }
+    public void OnClickContinueButton()
+    {
+        MenuTurn(ref isMenuTurn);
+    }
+    public void OnClickMenuButton()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
+    public void OnClickQuitButton()
+    {
+        Application.Quit(); 
     }
 }
