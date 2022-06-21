@@ -19,6 +19,8 @@ public class UIManager : MonoBehaviour
     Slider BGSoundSlider;
     [SerializeField]
     Slider EFSoundSlider;
+    [SerializeField]
+    AudioSource[] sound;
 
     [SerializeField]
     private Transform MenuON;
@@ -30,6 +32,8 @@ public class UIManager : MonoBehaviour
         tutorialText.SetActive(istutorialTurn);
         tutotutoText.SetActive(istutotutoTurn);
         MenuPanel.SetActive(isMenuTurn);
+        BGSoundSlider.value = 100;
+        EFSoundSlider.value = 100;
     }
     private void Update()
     {
@@ -60,6 +64,8 @@ public class UIManager : MonoBehaviour
         {
             MenuTurn(ref isMenuTurn);
         }
+        sound[0].volume = BGSoundSlider.value;
+        sound[1].volume = EFSoundSlider.value;
     }
     void MenuTurn(ref bool _input)
     {

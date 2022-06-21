@@ -17,6 +17,8 @@ TagManager:
   - Dirt (Static)
   - Wood
   - Ground
+  - Melee
+  - Gun
   layers:
   - Default
   - TransparentFX

@@ -5,21 +5,21 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     Rigidbody rigid;
-    Animator ani;
-    PlayerRotate PR;
 
     bool isDodge = false;
     bool dodgeAble = true;
     private float movespeed = 15f;
+    Animator ani;
 
     WaitForSeconds waitDodge = new WaitForSeconds(1f);
     WaitForSeconds waitDash = new WaitForSeconds(0.2f);
     Vector3 moveDir = Vector3.zero;
+
+
     private void Awake()
     {
         rigid = GetComponent<Rigidbody>();
         ani = GetComponentInChildren<Animator>();
-        PR = FindObjectOfType<PlayerRotate>();
     }
     private void Update()
     {
@@ -51,6 +51,7 @@ public class PlayerMove : MonoBehaviour
         dodgeAble = false;
         ani.SetTrigger("Dodge");
         float dashSpeed = 3f;
+        
         rigid.velocity *= dashSpeed;
         yield return waitDash; // 0.4sec
         isDodge = false;
