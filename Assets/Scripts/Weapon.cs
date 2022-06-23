@@ -6,11 +6,14 @@ public class Weapon : MonoBehaviour
 {
     public enum Type { melee, range };
     public Type type;
-    int damage;
+    int damage = 10;
     public float rate;
     public BoxCollider col;
     TrailRenderer TR;
     bool isattack = false;
+
+    [SerializeField]
+    private GameObject bullet;
     private void Awake()
     {
         col = GetComponent<BoxCollider>();
@@ -41,6 +44,9 @@ public class Weapon : MonoBehaviour
     }
     IEnumerator Fire()
     {
-
+        isattack = false;
+        GameObject obj = Instantiate(bullet, Vector3.forward, Quaternion.identity);
+        yield return new WaitForSeconds(0.05f);
+        isattack = true;
     }
 }
