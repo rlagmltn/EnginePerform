@@ -10,9 +10,7 @@ public class UIManager : MonoBehaviour
     public GameObject helpPanel;
     public GameObject tutotutoText;
     public GameObject MenuPanel;
-    bool istutorialTurn = true;
     bool isHelpTurn = false;
-    bool istutotutoTurn = true;
     bool isMenuTurn = false;
 
     [SerializeField]
@@ -29,45 +27,25 @@ public class UIManager : MonoBehaviour
         helpPanel.transform.position = MenuON.position;
         MenuPanel.transform.position = MenuON.position;
         helpPanel.SetActive(isHelpTurn);
-        tutorialText.SetActive(istutorialTurn);
-        tutotutoText.SetActive(istutotutoTurn);
         MenuPanel.SetActive(isMenuTurn);
         BGSoundSlider.value = 100;
         EFSoundSlider.value = 100;
     }
     private void Update()
     {
-        if (Input.GetButtonDown("P"))
-        {
-            istutorialTurn = !istutorialTurn;
-            tutorialText.SetActive(istutorialTurn);
-        }
         if (Input.GetButtonDown("Tab"))
         {
-            isHelpTurn = !isHelpTurn;
-            if (isHelpTurn)
-            {
-                Time.timeScale = 0f;
-            }
-            else
-            {
-                if (!istutorialTurn)
-                {
-                    istutotutoTurn = false;
-                    tutotutoText.SetActive(false);
-                }
-                Time.timeScale = 1f;
-            }
-            helpPanel.SetActive(isHelpTurn);
+            MenuTurn(ref isHelpTurn, helpPanel);
+            tutotutoText.SetActive(false);
         }
         if (Input.GetButtonDown("Cancel"))
         {
-            MenuTurn(ref isMenuTurn);
+            MenuTurn(ref isMenuTurn, MenuPanel);
         }
         sound[0].volume = BGSoundSlider.value;
         sound[1].volume = EFSoundSlider.value;
     }
-    void MenuTurn(ref bool _input)
+    void MenuTurn(ref bool _input, GameObject _obj)
     {
         _input = !_input;
         if (_input)
@@ -78,11 +56,11 @@ public class UIManager : MonoBehaviour
         {
             Time.timeScale = 1f;
         }
-        MenuPanel.SetActive(_input);
+        _obj.SetActive(_input);
     }
     public void OnClickContinueButton()
     {
-        MenuTurn(ref isMenuTurn);
+        MenuTurn(ref isMenuTurn, MenuPanel);
     }
     public void OnClickMenuButton()
     {

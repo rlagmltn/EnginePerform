@@ -8,7 +8,7 @@ public class WeaponSet : MonoBehaviour
     protected GameObject[] Weapon;
     protected Animator ani;
     public Material playerMaterial;
-    bool playerChangable = false;
+    bool playerChangable = true;
 
     public enum PlayerState
     {
@@ -23,41 +23,46 @@ public class WeaponSet : MonoBehaviour
     {
         ani = GetComponentInChildren<Animator>();
         equipWeapon = GetComponentInChildren<Weapon>();
+        StartCoroutine(ChangePlayerState(0));
     }
     private void Update()
     {
         if (Input.GetButtonDown("Alpha 1"))
         {
-            ChangeWeapon(0);
+            StartCoroutine(ChangePlayerState(0));
         }
         if (Input.GetButtonDown("Alpha 2"))
         {
-            ChangeWeapon(1);
+            StartCoroutine(ChangePlayerState(1));
         }
         if (Input.GetButtonDown("Alpha 3"))
         {
-            ChangeWeapon(2);
+            StartCoroutine(ChangePlayerState(2));
         }
         if (Input.GetButtonDown("Alpha 4"))
         {
-            ChangeWeapon(3);
-        }
-        //if (Input.GetButtonDown("Alpha 5"))
-        //{
-        //    ChangeWeapon(4);
-        //}
-        if (Input.GetButtonDown("Swap1"))
-        {
-            int swap = (int)Input.GetAxisRaw("Swap2");
-            StartCoroutine(ChangePlayerState(swap));
+            StartCoroutine(ChangePlayerState(3));
         }
         if (Input.GetMouseButton(0))
         {
-            bool attackable =  equipWeapon.Attack();
-            if (attackable) ani.SetTrigger("Swing");
+            bool attackable = equipWeapon.Attack();
+            if (attackable)
+                StartCoroutine(AttackAnim(equipWeapon.type));
         }
     }
-    void ChangeWeapon(int _input)
+    IEnumerator AttackAnim(Weapon.Type _type)
+    {
+        if (_type == global::Weapon.Type.melee)
+        {
+            ani.SetTrigger("Swing");
+            yield return new WaitForSeconds(equipWeapon.rate);
+        }
+        else
+        {
+            ani.SetTrigger("Fire");
+        }
+    }
+        void ChangeWeapon(int _input)
     {
         ani.SetTrigger("Swap");
         for (int i = 0; i < Weapon.Length; i++)
@@ -79,23 +84,20 @@ public class WeaponSet : MonoBehaviour
         else if (PS >= PlayerState.WATER && _switch == 1) PS = 0;
         else PS += _switch;
         Debug.Log($"{_switch} : {PS}");
-        switch (PS)
-        {
-            case PlayerState.FIRE:
-                playerMaterial.color = Color.red;
-                break;
-            case PlayerState.THUNDER:
-                playerMaterial.color = Color.yellow;
-                break;
-            case PlayerState.WATER:
-                playerMaterial.color = Color.blue;
-                break;
-            case PlayerState.IRON:
-            default:
-                playerMaterial.color = Color.white;
-                break;
-        }
+        ChangeWeapon(_switch);
+        ChangeColor();
         yield return new WaitForSeconds(5f);
         playerChangable = true;
+    }
+    void ChangeColor()
+    {
+        playerMaterial.color = PS switch
+        {
+            PlayerState.FIRE => Color.red,
+            PlayerState.THUNDER => Color.yellow,
+            PlayerState.WATER => Color.blue,
+            PlayerState.IRON => Color.white,
+            _ => Color.white,
+        };
     }
 }

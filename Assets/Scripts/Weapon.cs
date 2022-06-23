@@ -7,7 +7,7 @@ public class Weapon : MonoBehaviour
     public enum Type { melee, range };
     public Type type;
     int damage;
-    float rate;
+    public float rate;
     public BoxCollider col;
     TrailRenderer TR;
     bool isattack = false;
@@ -25,7 +25,7 @@ public class Weapon : MonoBehaviour
         }
         else
         {
-            //StartCoroutine(Fire());
+            StartCoroutine(Fire());
         }
         return true;
     }
@@ -34,15 +34,13 @@ public class Weapon : MonoBehaviour
         isattack = true;
         yield return new WaitForSeconds(0.1f);
         col.enabled = true;
-        TR.enabled = true;
         yield return new WaitForSeconds(0.5f);
         col.enabled = false;
         isattack = false;
         yield return new WaitForSeconds(0.4f);
-        TR.enabled = false;
     }
-    //IEnumerator Fire()
-    //{
-        
-    //}
+    IEnumerator Fire()
+    {
+
+    }
 }
