@@ -5,20 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wall
-  - Metal
-  - Blood
-  - Dirt
-  - Concrete
-  - ExplosiveBarrel
-  - Target
-  - GasTank
-  - Metal (Static)
-  - Wood (Static)
-  - Dirt (Static)
-  - Wood
   - Ground
   - Melee
   - Gun
+  - Object
+  - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX

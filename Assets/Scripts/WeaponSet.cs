@@ -5,17 +5,16 @@ using UnityEngine;
 public class WeaponSet : MonoBehaviour
 {
     [SerializeField]
-    protected GameObject[] Weapon;
+    protected GameObject[] WeaponObject;
     protected Animator ani;
     public Material playerMaterial;
     bool playerChangable = true;
-
     public enum PlayerState
     {
         IRON,
-        FIRE,
+        WATER,
         THUNDER,
-        WATER
+        FIRE
     }
     public PlayerState PS = PlayerState.IRON;
     Weapon equipWeapon;
@@ -45,44 +44,38 @@ public class WeaponSet : MonoBehaviour
         }
         if (Input.GetMouseButton(0))
         {
-            bool attackable = equipWeapon.Attack();
-            if (attackable)
-                StartCoroutine(AttackAnim(equipWeapon.type));
+            Attack();
         }
     }
-    IEnumerator AttackAnim(Weapon.Type _type)
+    void Attack()
     {
-        if (_type == global::Weapon.Type.melee)
-        {
-            ani.SetTrigger("Swing");
-            yield return new WaitForSeconds(equipWeapon.rate);
-        }
-        else
-        {
-            ani.SetTrigger("Fire");
-        }
+
+        StartCoroutine(AttackAnim());
     }
-        void ChangeWeapon(int _input)
+    IEnumerator AttackAnim()
+    {
+        ani.SetTrigger(equipWeapon.type == Weapon.Type.melee ? "Swing" : "Fire");
+        yield return new WaitForSeconds(equipWeapon.rate);
+    }
+    void ChangeWeapon(int _input)
     {
         ani.SetTrigger("Swap");
-        for (int i = 0; i < Weapon.Length; i++)
+        for (int i = 0; i < WeaponObject.Length; i++)
         {
-            if (Weapon == null) continue;
+            if (WeaponObject == null) continue;
             if (i == _input)
             {
-                Weapon[i].SetActive(true);
-                equipWeapon = Weapon[i].GetComponent<Weapon>();
+                WeaponObject[i].SetActive(true);
+                equipWeapon = WeaponObject[i].GetComponent<Weapon>();
             }
-            else Weapon[i].SetActive(false);
+            else WeaponObject[i].SetActive(false);
         }
     }
     IEnumerator ChangePlayerState(int _switch)
     {
         if (!playerChangable) yield break;
         playerChangable = false;
-        if (PS <= 0 && _switch == -1) PS = PlayerState.WATER;
-        else if (PS >= PlayerState.WATER && _switch == 1) PS = 0;
-        else PS += _switch;
+        PS = (PlayerState)_switch;
         Debug.Log($"{_switch} : {PS}");
         ChangeWeapon(_switch);
         ChangeColor();

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     float moveSpeed = 10f;
+
     TrailRenderer TR;
     private void Awake()
     {
@@ -12,18 +13,17 @@ public class Bullet : MonoBehaviour
     }
     private void Start()
     {
-        Die(3);
+        Destroy(gameObject ,4f);
     }
-    void Update()
+    private void OnCollisionEnter(Collision collision)
     {
-        Move();
-    }
-    void Move()
-    {
-        transform.Translate(Vector3.forward * moveSpeed);
-    }
-    void Die(int _t = 0)
-    {
-        Destroy(gameObject , _t);
+        if(collision.gameObject.CompareTag("Enemy"))
+        {
+
+        }
+        if (collision.gameObject.CompareTag("Object"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }

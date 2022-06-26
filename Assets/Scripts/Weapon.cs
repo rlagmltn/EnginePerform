@@ -4,20 +4,24 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    public enum Type { melee, range };
+    public enum Type { melee, range, granade };
     public Type type;
-    int damage = 10;
+    int damage = 2;
     public float rate;
     public BoxCollider col;
-    TrailRenderer TR;
     bool isattack = false;
 
     [SerializeField]
     private GameObject bullet;
+    [SerializeField]
+    private GameObject bulletCase;
+    [SerializeField]
+    private Transform bulletCasePos;
+    [SerializeField]
+    private Transform bulletPos;
     private void Awake()
     {
         col = GetComponent<BoxCollider>();
-        TR = GetComponentInChildren<TrailRenderer>();
     }
     public bool Attack()
     {
@@ -45,8 +49,16 @@ public class Weapon : MonoBehaviour
     IEnumerator Fire()
     {
         isattack = false;
-        GameObject obj = Instantiate(bullet, Vector3.forward, Quaternion.identity);
-        yield return new WaitForSeconds(0.05f);
+        GameObject bObj =  Instantiate(bullet, bulletPos.position, bulletPos.rotation);
+        Rigidbody bRigid = bObj.GetComponent<Rigidbody>();
+        bRigid.velocity = bulletPos.forward * 50f;
+
+        GameObject cObj = Instantiate(bulletCase, bulletCasePos.position, bulletCasePos.rotation);
+        Rigidbody cRigid = cObj.GetComponent<Rigidbody>();
+        Vector3 cDir = bulletCasePos.forward * Random.Range(-3, -2) - Vector3.up * Random.Range(2, 3);
+        cRigid.AddForce(cDir, ForceMode.Impulse);
+        cRigid.AddTorque(10 * Vector3.up, ForceMode.Impulse);
+        yield return new WaitForSeconds(rate);
         isattack = true;
     }
 }

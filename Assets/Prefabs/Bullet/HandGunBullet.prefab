@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7681045528442714962}
   - component: {fileID: 7681045528442714963}
   - component: {fileID: 7681045528442714961}
+  - component: {fileID: -4938443492111881053}
+  - component: {fileID: 225774242123696309}
   m_Layer: 0
   m_Name: HandGunBullet
   m_TagString: Untagged
@@ -26,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7681045528442714964}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.78, y: 13.47, z: -3.15}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -73,7 +75,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.3
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -82,7 +84,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0.005554199
-        value: 0.4766922
+        value: 0.24811935
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -103,8 +105,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.3236027, g: 0.3872671, b: 0.6792453, a: 1}
-      key1: {r: 0.5171769, g: 0.5366203, b: 0.735849, a: 1}
+      key0: {r: 0.5707547, g: 0.647065, b: 1, a: 1}
+      key1: {r: 0.8726415, g: 0.88401276, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -150,5 +152,34 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.3
+  m_Radius: 0.2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &-4938443492111881053
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7681045528442714964}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &225774242123696309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7681045528442714964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff5702cfc0492334fa404c83730d0fa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 3

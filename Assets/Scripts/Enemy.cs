@@ -5,6 +5,11 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     private int hp = 3;
+    Animator ani;
+    private void Awake()
+    {
+        ani = GetComponentInChildren<Animator>();
+    }
     public int HP
     {
         get
@@ -26,7 +31,8 @@ public class Enemy : MonoBehaviour
     }
     void Die()
     {
-        Destroy(gameObject);
+        Destroy(gameObject, 2f);
+        ani.SetTrigger("Die");
     }
     private void OnCollisionEnter(Collision col)
     {

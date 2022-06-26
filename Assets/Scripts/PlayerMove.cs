@@ -36,8 +36,12 @@ public class PlayerMove : MonoBehaviour
     }
     void Move()
     {
-        if (!isDodge) rigid.velocity = moveDir;
         ani.SetBool("isRun", moveDir != Vector3.zero);
+        ani.SetBool("isWalk", Input.GetButton("Walk"));
+        if (!isDodge)
+        {
+            rigid.velocity = moveDir;
+        }
     }
     void Dodge()
     {
