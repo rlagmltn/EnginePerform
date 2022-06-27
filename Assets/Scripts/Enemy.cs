@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    private int hp = 3;
+    private int hp = 40;
     Animator ani;
+    Rigidbody rigid;
+    Collider col;
+    Material mat;
     private void Awake()
     {
+        hp = 400;
         ani = GetComponentInChildren<Animator>();
+        rigid = GetComponent<Rigidbody>();
+        col = GetComponent<Collider>();
+        mat = GetComponent<Renderer>().material;
     }
     public int HP
     {
@@ -18,27 +25,46 @@ public class Enemy : MonoBehaviour
         }
         set
         {
-            hp += value;
+            hp -= value;
             if (hp <= 0)
             {
                 Die();
             }
+            else
+            {
+                StartCoroutine(Hit());
+            }
         }
     }
-    public void Hit(int _atk = 1)
+    public IEnumerator Hit(int _atk = 1)
     {
-        HP -= _atk;
+        Color tmp = mat.color;
+        mat.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        mat.color = tmp;
     }
     void Die()
     {
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 1f);
+        mat.color = Color.black;
         ani.SetTrigger("Die");
     }
-    private void OnCollisionEnter(Collision col)
+    private void OnTriggerEnter(Collider col)
     {
+        Vector3 rVec = (transform.position - col.transform.position).normalized;
         if (col.gameObject.CompareTag("Bullet"))
         {
-            Hit();
+            Bullet bullet = col.GetComponent<Bullet>();
+            HP -= bullet.damage;
+            rVec = (transform.position - col.transform.position).normalized;
         }
+        if (col.gameObject.CompareTag("Melee"))
+        {
+            Weapon weapon = col.GetComponent<Weapon>();
+            HP -= weapon.damage;
+        }
+        rVec += Vector3.up;
+        rigid.AddForce(rVec * 5, ForceMode.Impulse);
+        Debug.Log(HP);
     }
 }

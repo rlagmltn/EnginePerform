@@ -4,24 +4,19 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    float moveSpeed = 10f;
-
-    TrailRenderer TR;
-    private void Awake()
-    {
-        TR = GetComponent<TrailRenderer>();
-    }
+    public int damage;
     private void Start()
     {
-        Destroy(gameObject ,4f);
+        damage = FindObjectOfType<WeaponSet>().equipWeapon.damage;
+        Destroy(gameObject , 4f);
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
-        if(collision.gameObject.CompareTag("Enemy"))
-        {
-
-        }
         if (collision.gameObject.CompareTag("Object"))
+        {
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Enemy"))
         {
             Destroy(collision.gameObject);
         }

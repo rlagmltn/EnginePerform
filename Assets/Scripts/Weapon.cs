@@ -6,11 +6,12 @@ public class Weapon : MonoBehaviour
 {
     public enum Type { melee, range, granade };
     public Type type;
-    int damage = 2;
+    public int damage;
     public float rate;
-    public BoxCollider col;
-    bool isattack = false;
-
+    public int curammo;
+    public int maxAmmo;
+    public Collider col;
+    TrailRenderer TR;
     [SerializeField]
     private GameObject bullet;
     [SerializeField]
@@ -21,44 +22,51 @@ public class Weapon : MonoBehaviour
     private Transform bulletPos;
     private void Awake()
     {
-        col = GetComponent<BoxCollider>();
+        col = GetComponent<Collider>();
+        TR = GetComponentInChildren<TrailRenderer>();
+        if (type == Type.granade) TR.enabled = false;
     }
-    public bool Attack()
+    public void Attack()
     {
-        if (isattack) return false;
         if (type == Type.melee)
         {
             StartCoroutine(Swing());
         }
-        else
+        else if (type == Type.range && curammo > 0  )
         {
-            StartCoroutine(Fire());
+            curammo--;
+            Fire();
         }
-        return true;
+        else if (type == Type.granade && curammo > 0)
+        {
+            StartCoroutine(Swing());
+            Granade();
+        }
     }
     IEnumerator Swing()
     {
-        isattack = true;
-        yield return new WaitForSeconds(0.1f);
         col.enabled = true;
         yield return new WaitForSeconds(0.5f);
         col.enabled = false;
-        isattack = false;
-        yield return new WaitForSeconds(0.4f);
     }
-    IEnumerator Fire()
+    void Fire()
     {
-        isattack = false;
-        GameObject bObj =  Instantiate(bullet, bulletPos.position, bulletPos.rotation);
+        GameObject bObj = Instantiate(bullet, bulletPos.position, bulletPos.rotation);
+        Vector3 bDir = new Vector3(bulletPos.forward.x, 0f, bulletPos.forward.z);
         Rigidbody bRigid = bObj.GetComponent<Rigidbody>();
-        bRigid.velocity = bulletPos.forward * 50f;
+        bRigid.velocity = bDir * 50f;
+
 
         GameObject cObj = Instantiate(bulletCase, bulletCasePos.position, bulletCasePos.rotation);
         Rigidbody cRigid = cObj.GetComponent<Rigidbody>();
         Vector3 cDir = bulletCasePos.forward * Random.Range(-3, -2) - Vector3.up * Random.Range(2, 3);
         cRigid.AddForce(cDir, ForceMode.Impulse);
         cRigid.AddTorque(10 * Vector3.up, ForceMode.Impulse);
-        yield return new WaitForSeconds(rate);
-        isattack = true;
+    }
+    void Granade()
+    {
+        GameObject bObj = Instantiate(bullet, bulletPos.position, bulletPos.rotation);
+        Rigidbody bRigid = bObj.GetComponent<Rigidbody>();
+        bRigid.velocity = bulletPos.forward * 50f;
     }
 }

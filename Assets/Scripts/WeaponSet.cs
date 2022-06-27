@@ -9,6 +9,10 @@ public class WeaponSet : MonoBehaviour
     protected Animator ani;
     public Material playerMaterial;
     bool playerChangable = true;
+    bool attackable = true;
+    public bool reloadAble = true;
+    public bool isReload = false;
+    public int ammo = 120;
     public enum PlayerState
     {
         IRON,
@@ -17,45 +21,56 @@ public class WeaponSet : MonoBehaviour
         FIRE
     }
     public PlayerState PS = PlayerState.IRON;
-    Weapon equipWeapon;
+    public Weapon equipWeapon;
     private void Awake()
     {
         ani = GetComponentInChildren<Animator>();
         equipWeapon = GetComponentInChildren<Weapon>();
+        equipWeapon.curammo = equipWeapon.maxAmmo;
         StartCoroutine(ChangePlayerState(0));
+        reloadAble = true;
     }
     private void Update()
     {
-        if (Input.GetButtonDown("Alpha 1"))
+        if (!isReload)
         {
-            StartCoroutine(ChangePlayerState(0));
-        }
-        if (Input.GetButtonDown("Alpha 2"))
-        {
-            StartCoroutine(ChangePlayerState(1));
-        }
-        if (Input.GetButtonDown("Alpha 3"))
-        {
-            StartCoroutine(ChangePlayerState(2));
-        }
-        if (Input.GetButtonDown("Alpha 4"))
-        {
-            StartCoroutine(ChangePlayerState(3));
+            if (Input.GetButtonDown("Alpha 1"))
+            {
+                StartCoroutine(ChangePlayerState(0));
+            }
+            if (Input.GetButtonDown("Alpha 2"))
+            {
+                StartCoroutine(ChangePlayerState(1));
+            }
+            if (Input.GetButtonDown("Alpha 3"))
+            {
+                StartCoroutine(ChangePlayerState(2));
+            }
+            if (Input.GetButtonDown("Alpha 4"))
+            {
+                StartCoroutine(ChangePlayerState(3));
+            }
+            if (Input.GetButtonDown("Reload"))
+            {
+                StartCoroutine(Reload());
+            }
         }
         if (Input.GetMouseButton(0))
         {
-            Attack();
+            StartCoroutine(Attack());
         }
     }
-    void Attack()
+    IEnumerator Attack()
     {
-
-        StartCoroutine(AttackAnim());
-    }
-    IEnumerator AttackAnim()
-    {
-        ani.SetTrigger(equipWeapon.type == Weapon.Type.melee ? "Swing" : "Fire");
-        yield return new WaitForSeconds(equipWeapon.rate);
+        if (equipWeapon.type == Weapon.Type.range && equipWeapon.curammo > 0 && !isReload) ani.SetTrigger("Fire");
+        if (attackable && !isReload)
+        {
+            if (equipWeapon.type == Weapon.Type.melee) ani.SetTrigger("Swing");
+            attackable = false;
+            equipWeapon.Attack();
+            yield return new WaitForSeconds(equipWeapon.rate);
+            attackable = true;
+        }
     }
     void ChangeWeapon(int _input)
     {
@@ -92,5 +107,19 @@ public class WeaponSet : MonoBehaviour
             PlayerState.IRON => Color.white,
             _ => Color.white,
         };
+    }
+    IEnumerator Reload()
+    {
+        if (equipWeapon == null || isReload) yield break;
+        if (equipWeapon.curammo == equipWeapon.maxAmmo) yield break;
+        if (equipWeapon.type == Weapon.Type.melee || equipWeapon.type == Weapon.Type.granade) yield break;
+        reloadAble = false; isReload = true;
+        ani.SetTrigger("Reload");
+        yield return new WaitForSeconds(2f);
+        int reAmmo = ammo < equipWeapon.maxAmmo ? ammo : equipWeapon.maxAmmo - equipWeapon.curammo;
+        Debug.Log(reAmmo);
+        equipWeapon.curammo = reAmmo;
+        ammo -= reAmmo;
+        reloadAble = true; isReload = false;
     }
 }

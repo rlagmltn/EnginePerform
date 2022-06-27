@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
     bool dodgeAble = true;
     private float movespeed = 15f;
     Animator ani;
+    WeaponSet WS;
 
     WaitForSeconds waitDodge = new WaitForSeconds(1f);
     WaitForSeconds waitDash = new WaitForSeconds(0.2f);
@@ -20,12 +21,16 @@ public class PlayerMove : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody>();
         ani = GetComponentInChildren<Animator>();
+        WS = FindObjectOfType<WeaponSet>();
     }
     private void Update()
     {
         GetInput();
         Move();
-        Dodge();
+        if (isDodge && dodgeAble)
+        {
+            StartCoroutine(Dash());
+        }
     }
     void GetInput()
     {
@@ -33,6 +38,7 @@ public class PlayerMove : MonoBehaviour
         float z = Input.GetAxis("Vertical");
         moveDir = new Vector3(x, 0f, z).normalized * movespeed;
         if (dodgeAble) isDodge = Input.GetButtonDown("Dodge");
+
     }
     void Move()
     {
@@ -41,13 +47,6 @@ public class PlayerMove : MonoBehaviour
         if (!isDodge)
         {
             rigid.velocity = moveDir;
-        }
-    }
-    void Dodge()
-    {
-        if (isDodge && dodgeAble)
-        {
-            StartCoroutine(Dash());
         }
     }
     IEnumerator Dash()
