@@ -11,6 +11,7 @@ TagManager:
   - Object
   - Bullet
   - Enemy
+  - Granade
   layers:
   - Default
   - TransparentFX
@@ -18,16 +19,16 @@ TagManager:
   - Ground
   - Water
   - UI
+  - Player
+  - Enemy
+  - Bullet
   - 
   - 
-  - Wall
-  - First Person View
-  - Character
-  - Post Processing
-  - Post Processing Weapon
-  - Post Processing Scope
-  - Invisible Wall
-  - Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

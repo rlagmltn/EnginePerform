@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
@@ -9,13 +10,16 @@ public class Enemy : MonoBehaviour
     Rigidbody rigid;
     Collider col;
     Material mat;
+    NavMeshAgent NMA;
+    public Transform target;
     private void Awake()
     {
         hp = 400;
         ani = GetComponentInChildren<Animator>();
         rigid = GetComponent<Rigidbody>();
         col = GetComponent<Collider>();
-        mat = GetComponent<Renderer>().material;
+        mat = GetComponentInChildren<Renderer>().material;
+        NMA = GetComponent<NavMeshAgent>();
     }
     public int HP
     {
@@ -26,6 +30,7 @@ public class Enemy : MonoBehaviour
         set
         {
             hp -= value;
+            Debug.Log($"{hp} , {value}");
             if (hp <= 0)
             {
                 Die();
@@ -36,11 +41,26 @@ public class Enemy : MonoBehaviour
             }
         }
     }
-    public IEnumerator Hit(int _atk = 1)
+    void Update()
+    {
+        transform.LookAt(target.position);
+        rigid.velocity = (target.position - transform.position).normalized * 5f;
+        Debug.Log(rigid.velocity);
+    }
+    void FixedUpdate()
+    {
+        Freeze();
+    }
+    void Freeze()
+    {
+        rigid.velocity = Vector3.zero;
+        rigid.angularVelocity = Vector3.zero;
+    }
+    public IEnumerator Hit()
     {
         Color tmp = mat.color;
         mat.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.05f);
         mat.color = tmp;
     }
     void Die()
@@ -51,20 +71,16 @@ public class Enemy : MonoBehaviour
     }
     private void OnTriggerEnter(Collider col)
     {
-        Vector3 rVec = (transform.position - col.transform.position).normalized;
         if (col.gameObject.CompareTag("Bullet"))
         {
             Bullet bullet = col.GetComponent<Bullet>();
-            HP -= bullet.damage;
-            rVec = (transform.position - col.transform.position).normalized;
+            HP = bullet.damage;
+            Destroy(col.gameObject);
         }
         if (col.gameObject.CompareTag("Melee"))
         {
             Weapon weapon = col.GetComponent<Weapon>();
-            HP -= weapon.damage;
+            HP = weapon.damage;
         }
-        rVec += Vector3.up;
-        rigid.AddForce(rVec * 5, ForceMode.Impulse);
-        Debug.Log(HP);
     }
 }

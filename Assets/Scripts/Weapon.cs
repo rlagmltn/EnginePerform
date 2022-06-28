@@ -10,6 +10,7 @@ public class Weapon : MonoBehaviour
     public float rate;
     public int curammo;
     public int maxAmmo;
+
     public Collider col;
     TrailRenderer TR;
     [SerializeField]
@@ -32,14 +33,13 @@ public class Weapon : MonoBehaviour
         {
             StartCoroutine(Swing());
         }
-        else if (type == Type.range && curammo > 0  )
+        else if (type == Type.range && curammo > 0)
         {
             curammo--;
             Fire();
         }
         else if (type == Type.granade && curammo > 0)
         {
-            StartCoroutine(Swing());
             Granade();
         }
     }
@@ -66,7 +66,5 @@ public class Weapon : MonoBehaviour
     void Granade()
     {
         GameObject bObj = Instantiate(bullet, bulletPos.position, bulletPos.rotation);
-        Rigidbody bRigid = bObj.GetComponent<Rigidbody>();
-        bRigid.velocity = bulletPos.forward * 50f;
     }
 }

@@ -62,10 +62,11 @@ public class WeaponSet : MonoBehaviour
     }
     IEnumerator Attack()
     {
+        yield return new WaitForSeconds(0.1f);
         if (equipWeapon.type == Weapon.Type.range && equipWeapon.curammo > 0 && !isReload) ani.SetTrigger("Fire");
         if (attackable && !isReload)
         {
-            if (equipWeapon.type == Weapon.Type.melee) ani.SetTrigger("Swing");
+            if (equipWeapon.type == Weapon.Type.melee || equipWeapon.type == Weapon.Type.granade) ani.SetTrigger("Swing");
             attackable = false;
             equipWeapon.Attack();
             yield return new WaitForSeconds(equipWeapon.rate);
